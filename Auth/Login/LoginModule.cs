@@ -24,7 +24,7 @@ namespace Auth.Login
             public bool Authenticate(string username, string password, out User loginUser)
             {
                 loginUser = authRepository.listRegisteredUser.FirstOrDefault(u => u.Username.Equals(username) && u.Password.Equals(AuthUtilities.HashPassword(password)));
-            loggedInUser = loginUser;   
+           
             return loginUser != null;
             }
 
