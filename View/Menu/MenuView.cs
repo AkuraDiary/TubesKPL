@@ -120,7 +120,7 @@ namespace AKMJ_TubesKPL.View.Menu
             TodoItem newTodo = new TodoItem();
 
             TodoItem oldTodo = todoRepo.GetById(id);
-            string stats = string.IsNullOrEmpty(newStatus) ? null : newStatus;
+            string stats = string.IsNullOrEmpty(newStatus) ? "" : newStatus;
 
             bool isSelesai = stats.ToLower().Equals("y");
 

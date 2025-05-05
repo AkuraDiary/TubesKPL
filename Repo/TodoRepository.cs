@@ -34,8 +34,8 @@ namespace AKMJ_TubesKPL.Repo
 
         public IEnumerable<TodoItem> GetAll()
         {
-         
             todos = dataSource.ReadFile(activeTodosPath).todos;
+            nextId = todos.Count + 1;
             return todos;
         }
 
