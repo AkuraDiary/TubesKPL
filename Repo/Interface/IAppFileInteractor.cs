@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace AKMJ_TubesKPL.Repo.Interface
 {
-    interface IAppFileInteractor<T>
+    interface IAppFileInteractor<R>
     {
-
         public void SaveToFile<T>(T data, string filepath);
 
-        public void InsertToFile<T>(T data, string filepath);
-
-        public T ReadFile(string filepath);
+        public R ReadFile(string filepath);
         
     }
 }

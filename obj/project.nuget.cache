@@ -1,17 +1,17 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "c4j9Luy7Jtg=",
+  "dgSpecHash": "waiJAJEOSZs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Documents\\github\\TubesKPL\\AKMJ_TubesKPL.csproj",
-  "expectedPackageFiles": [],
-=======
-  "dgSpecHash": "JAP3LZkOCtU=",
-  "success": true,
-  "projectFilePath": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\AKMJ_TubesKPL.csproj",
+  "projectFilePath": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\AKMJ_TubesKPL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\andhi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\HAKIM AL BAIHAQY\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
->>>>>>> 4c16f146dcb60c7a79e152c12905a3443ec16ab5
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

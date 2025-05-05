@@ -12,24 +12,19 @@ namespace AKMJ_TubesKPL.Repo
 {
     public class AppConfig : IAppFileInteractor<AppConfig>
     {
-        string UserAccountConfigPath { get; set; }
-        string StoragePath { get; set; }
+        public string UserAccountConfigPath { get; set; }
+        public string StoragePath { get; set; }
 
         public AppConfig(string userAccountConfigPath, string storagePath)
         {
             UserAccountConfigPath = userAccountConfigPath;
             StoragePath = storagePath;
         }
-
         public void InitConfig(string appConfigpath)
         {
             if (File.Exists(appConfigpath))
             {
-                var option = new JsonSerializerOptions() {
-                WriteIndented = true};
-             
-                var updatedJson = JsonSerializer.Serialize(AppConstant.defaultAppConfig, option);
-                File.WriteAllText(appConfigpath, updatedJson);
+                SaveToFile<string>(AppConstant.defaultAppConfig, appConfigpath);
             }
             else
             {
@@ -39,19 +34,21 @@ namespace AKMJ_TubesKPL.Repo
                     InitConfig(appConfigpath);
                 }
             }
-}
-
-        public void InsertToFile<T>(T data, string filepath)
-        {
-            throw new NotImplementedException();
-        }        
+        }  
 
         public void LoadAppConfig(string appConfigpath)
         {
             if (File.Exists(appConfigpath))
             {
-              
+                AppConfig config = ReadFile(appConfigpath);
+                this.UserAccountConfigPath = config.UserAccountConfigPath;
+                this.StoragePath = config.StoragePath;
 
+            }
+            else
+            {
+
+                Console.WriteLine($"Error : Config File Not Found");
             }
         }
 
@@ -61,7 +58,7 @@ namespace AKMJ_TubesKPL.Repo
             {
                 string jsonString = File.ReadAllText(filepath);
                 var config = JsonSerializer.Deserialize<AppConfig>(jsonString);
-                return new AppConfig();
+                return config;
             }catch(Exception e)
             {
                 Console.WriteLine($"Error : {e.Message}");
@@ -71,7 +68,23 @@ namespace AKMJ_TubesKPL.Repo
 
         public void SaveToFile<T>(T data, string filepath)
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                var option = new JsonSerializerOptions()
+                {
+                    WriteIndented = true
+                };
+
+                var json = JsonSerializer.Serialize(data, option);
+                File.WriteAllText(filepath, json);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error : {e.Message}");
+                return;
+            }
+         
         }
     }
 }
