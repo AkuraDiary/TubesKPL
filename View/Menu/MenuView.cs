@@ -42,7 +42,7 @@ namespace AKMJ_TubesKPL.View.Menu
         {
             authRepo.loggedInUser = null;
             authRepo.activeDirectory = "";
-            todoRepo.activeTodosPath = "";
+            todoRepo.ResetState();
         }
 
         public void showDashboard()
