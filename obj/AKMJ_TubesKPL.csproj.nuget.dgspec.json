@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\AKMJ_TubesKPL\\AKMJ_TubesKPL.csproj": {}
+    "C:\\Users\\asus\\Documents\\github\\TubesKPL\\AKMJ_TubesKPL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\AKMJ_TubesKPL\\AKMJ_TubesKPL.csproj": {
+    "C:\\Users\\asus\\Documents\\github\\TubesKPL\\AKMJ_TubesKPL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\AKMJ_TubesKPL\\AKMJ_TubesKPL.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Documents\\github\\TubesKPL\\AKMJ_TubesKPL.csproj",
         "projectName": "AKMJ_TubesKPL",
-        "projectPath": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\AKMJ_TubesKPL\\AKMJ_TubesKPL.csproj",
-        "packagesPath": "C:\\Users\\HAKIM AL BAIHAQY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\AKMJ_TubesKPL\\obj\\",
+        "projectPath": "C:\\Users\\asus\\Documents\\github\\TubesKPL\\AKMJ_TubesKPL.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\Documents\\github\\TubesKPL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HAKIM AL BAIHAQY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
