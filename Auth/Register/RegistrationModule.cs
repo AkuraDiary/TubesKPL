@@ -1,16 +1,25 @@
 ﻿using System;
-using AuthLibrary;
+using AKMJ_TubesKPL.Repo;
+using AKMJ_TubesKPL.Repo.Models;
+using AKMJ_TubesKPL.Util;
 
 namespace Auth.Register
 {
-    public class RegistrationModule
+    class RegistrationModule
     {
-        private const string UserConfigPath = "user_config.json";
+        public AuthRepository authRepository { get; set; }
+
+      public RegistrationModule(AuthRepository authRepository)
+        {
+            this.authRepository = authRepository;
+
+            this.authRepository.LoadUsers();
+        }
 
         public bool RegisterUser(string nama, string username, string password)
         {
             // Validasi username
-            if (!AuthUtilities.ValidateUsername(username, UserConfigPath))
+            if (!AuthUtilities.CheckForDuplicateUsername(username, authRepository.listRegisteredUser))
             {
                 Console.WriteLine("Username sudah digunakan.");
                 return false;
@@ -19,6 +28,7 @@ namespace Auth.Register
             // Buat user baru
             User newUser = new User
             {
+                Id = AuthUtilities.GenerateUserId(authRepository.listRegisteredUser),
                 Nama = nama,
                 Username = username,
                 Password = AuthUtilities.HashPassword(password)
@@ -27,7 +37,9 @@ namespace Auth.Register
             // Simpan ke file
             try
             {
-                AuthUtilities.WriteUserConfig(newUser, UserConfigPath);
+
+                authRepository.RegisterUser(newUser);
+                //AuthUtilities.WriteUserConfig(newUser, UserConfigPath);
                 Console.WriteLine("Pendaftaran berhasil!");
                 return true;
             }

@@ -10,7 +10,6 @@
   <ItemGroup>
     <Folder Include="Auth\Login\" />
     <Folder Include="Domain\" />
-    <Folder Include="Repo\Models\" />
     <Folder Include="View\" />
   </ItemGroup>
 
