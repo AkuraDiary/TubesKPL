@@ -14,8 +14,15 @@ namespace AKMJ_TubesKPL.Repo
     {
        public List<User> listRegisteredUser { get; set; }
 
-      
-     
+        AppConfig appConfig { get; set; }
+
+        public AuthRepository(AppConfig appConfig)
+        {
+            this.appConfig = appConfig;
+        }
+
+
+        // HAKIM - menyimpan register user ke dalam file external (runtime config)
         public void RegisterUser(User newUser)
         {
             List<User> users;
@@ -33,9 +40,11 @@ namespace AKMJ_TubesKPL.Repo
             else
             {
                 // create new file 
-                using (File.Create(AppConstant.userFilePath)) {
-                    RegisterUser(newUser);
-                }
+                File.Create(AppConstant.userFilePath).Dispose();
+                RegisterUser(newUser);
+                // creating new todolist config for registered user
+                Directory.CreateDirectory(appConfig.StoragePath);
+                File.Create(appConfig.StoragePath+newUser.Username+"_"+AppConstant.userTodoListSuffix).Dispose();
             }
 
             LoadUsers();

@@ -11,5 +11,6 @@ namespace AKMJ_TubesKPL.Util
 
         public static string userFilePath = "user_config.json";
         public static string defaultAppConfigPath="appconfig.json";
+        public static string userTodoListSuffix = "todolist.json";
     }
 }

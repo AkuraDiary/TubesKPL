@@ -18,25 +18,30 @@ namespace AKMJ_TubesKPL
             appConfig.InitConfig(AppConstant.defaultAppConfigPath);
             appConfig.LoadAppConfig(AppConstant.defaultAppConfigPath);
 
+            AuthRepository authRepo = new AuthRepository(appConfig);
+                authRepo.LoadUsers();
+            RegistrationModule regis = new RegistrationModule(authRepo);
 
-            var users = UserData.GetUsers();
-            var authService = new Userservice(users);
+            regis.RegisterUser("hakim", "hakim", "hakim");
 
-            Console.Write("Username: ");
-            string username = Console.ReadLine();
+            //var users = UserData.GetUsers();
+            //var authService = new Userservice(users);
 
-            Console.Write("Password: ");
-            string password = Console.ReadLine();
+            //Console.Write("Username: ");
+            //string username = Console.ReadLine();
 
-            if (authService.Authenticate(username, password, out User user))
-            {
-                Console.WriteLine($"Login berhasil {user.Username}!");
-            }
-            else
-            {
-                Console.WriteLine("Login gagal password/username salah");
+            //Console.Write("Password: ");
+            //string password = Console.ReadLine();
 
-            }
+            //if (authService.Authenticate(username, password, out User user))
+            //{
+            //    Console.WriteLine($"Login berhasil {user.Username}!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Login gagal password/username salah");
+
+            //}
         }
     } 
 }
