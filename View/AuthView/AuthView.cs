@@ -1,4 +1,8 @@
-﻿using System;
+﻿using AKMJ_TubesKPL.Data.Models;
+using AKMJ_TubesKPL.Repo;
+using Auth.Login;
+using Auth.Register;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,15 +10,27 @@ using System.Threading.Tasks;
 
 namespace AKMJ_TubesKPL.View.AuthView
 {
-    public class UserService
+     class AuthView
     {
-        private static readonly Dictionary<string, Action> MenuOptions = new Dictionary<string, Action>
+        private readonly Dictionary<string, Action> MenuOptions;
+        
+
+    
+        LoginModule loginModule { get; set; }
+        RegistrationModule registerModule { get; set; }
+        public AuthView(LoginModule loginM, RegistrationModule registerM)
+        {
+            this.loginModule = loginM;
+            this.registerModule = registerM;
+           
+            MenuOptions = new Dictionary<string, Action>
         {
             { "1", () => ShowLoginForm() },
             { "2", () => ShowRegisterForm() },
             { "x", () => ExitApplication() }
         };
-        public static (string username, string password) GetLoginCredentials()
+        }
+        public  (string username, string password) GetLoginCredentials()
         {
             Console.Clear();
             Console.WriteLine("=== LOGIN ===");
@@ -27,18 +43,18 @@ namespace AKMJ_TubesKPL.View.AuthView
 
             return (username, password);
         }
-        public static void ShowLoginSuccess(string username)
+        public  void ShowLoginSuccess(string username)
         {
             Console.WriteLine($"\nLogin berhasil! Selamat datang, {username}!");
             Console.ReadKey();
         }
 
-        public static void ShowLoginError(string message)
+        public  void ShowLoginError(string message)
         {
             Console.WriteLine($"\nError: {message}");
             Console.ReadKey();
         }
-        public static (string nama, string username, string password) GetRegisterCredentials()
+        public  (string nama, string username, string password) GetRegisterCredentials()
         {
             Console.Clear();
             Console.WriteLine("=== REGISTER ===");
@@ -55,20 +71,20 @@ namespace AKMJ_TubesKPL.View.AuthView
             return (nama, username, password);
         }
 
-        public static void ShowRegisterSuccess(string username)
+        public  void ShowRegisterSuccess(string username)
         {
             Console.WriteLine($"\nRegistrasi berhasil! Akun {username} telah dibuat.");
             Console.WriteLine("Silakan login menggunakan akun Anda.");
             Console.ReadKey();
         }
 
-        public static void ShowRegisterError(string message)
+        public  void ShowRegisterError(string message)
         {
             Console.WriteLine($"\nError registrasi: {message}");
             Console.ReadKey();
         }
 
-        private static string GetMaskedPassword()
+        private  string GetMaskedPassword()
         {
             string password = "";
             ConsoleKeyInfo key;
@@ -90,13 +106,13 @@ namespace AKMJ_TubesKPL.View.AuthView
 
             return password;
         }
-        public static void ShowAuthMenu()
+        public  void ShowAuthMenu()
         {
             string input;
-            do
-            {
-                Console.Clear();
-                Console.WriteLine("=== AUTH MENU ===");
+            //do
+            //{
+                //Console.Clear();
+            Console.WriteLine("=== AUTH MENU ===");
                 Console.WriteLine("1. Login");
                 Console.WriteLine("2. Register");
                 Console.WriteLine("x. Exit");
@@ -108,22 +124,33 @@ namespace AKMJ_TubesKPL.View.AuthView
                     MenuOptions[input].Invoke();
                 }
 
-            } while (input != "x");
+            //} while (input != "x");
         }
 
-        private static void ShowLoginForm()
+        private  void ShowLoginForm()
         {
             var (username, password) = GetLoginCredentials();
-            
+            if (loginModule.Authenticate(username, password, out User user))
+            {
+                loginModule.saveSession(user);
+
+            }
+           
         }
 
-        private static void ShowRegisterForm()
+        private  void ShowRegisterForm()
         {
             var (nama, username, password) = GetRegisterCredentials();
+            if(registerModule.RegisterUser(nama, username, password)){
+                Console.WriteLine();
+                Console.WriteLine("Pendaftaran berhasil!");
+            }
+
         }
 
-        private static void ExitApplication()
+        private  void ExitApplication()
         {
+            loginModule.Deauthenticate();
             Console.WriteLine("\nKeluar aplikasi...");
             Environment.Exit(0);
         }

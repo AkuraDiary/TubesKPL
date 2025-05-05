@@ -1,10 +1,10 @@
 
-﻿using System;
-﻿using AKMJ_TubesKPL.Repo;
+using System;
+using AKMJ_TubesKPL.Repo;
 using Auth.Register;
 using AKMJ_TubesKPL.Util;
 using Auth.Login;
-using AKMJ_TubesKPL.Repo.Models;
+using AKMJ_TubesKPL.Data.Models;
 
 
 namespace AKMJ_TubesKPL
@@ -15,89 +15,35 @@ namespace AKMJ_TubesKPL
         static void Main(string[] args)
         {
 
-            AppConfig appConfig = new AppConfig();
-            appConfig.InitConfig(AppConstant.defaultAppConfigPath);
-            appConfig.LoadAppConfig(AppConstant.defaultAppConfigPath);
+            DI.init();
 
-            AuthRepository authRepo = new AuthRepository(appConfig);
-           
-            RegistrationModule regis = new RegistrationModule(authRepo);
-            LoginModule login = new LoginModule(authRepo);
-
-            regis.RegisterUser("hakim", "hakim", "hakim");
-
-            ////var authService = new Userservice(users);
-
-            Console.Write("Username: ");
-            string username = Console.ReadLine();
-
-            Console.Write("Password: ");
-            string password = Console.ReadLine();
-
-            if (login.Authenticate(username, password, out User user))
+            while (true)
             {
-                login.loggedInUser = user;
-                Console.WriteLine($"Login berhasil {user.Username}!");
+                DI.authView.ShowAuthMenu();
+
+                if (DI.authRepo.loggedInUser != null)
+                {
+                    DI.menuView.showDashboard();
+                }
+               
             }
-            else
-            {
-                Console.WriteLine("Login gagal password/username salah");
-            }
+            
+            //Console.Write("Username: ");
+            //string username = Console.ReadLine();
+
+            //Console.Write("Password: ");
+            //string password = Console.ReadLine();
+
+            //if (login.Authenticate(username, password, out User user))
+            //{
+            //    login.loggedInUser = user;
+            //    Console.WriteLine($"Login berhasil {user.Username}!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Login gagal password/username salah");
+            //}
     }
     } 
 }
-            //    var repository = new TodoRepository();
-            //    var service = new TodoService(repository);
-
-            //    bool exit = false;
-            //    while (!exit)
-            //    {
-            //        Console.Clear();
-            //        Console.WriteLine("=== Selamat datang pada To-Do List ===");
-            //        Console.WriteLine("1. Lihat Daftar To-Do");
-            //        Console.WriteLine("2. Tambah To-Do Baru");
-            //        Console.WriteLine("3. Edit To-Do");
-            //        Console.WriteLine("4. Hapus To-Do");
-            //        Console.WriteLine("5. Tandai Selesai");
-            //        Console.WriteLine("6. Keluar");
-            //        Console.Write("Pilih menu: ");
-
-
-
-            //        var choice = Console.ReadLine();
-            //        switch (choice)
-            //        {
-            //            case "1":
-            //                service.ViewAll();
-            //                break;
-            //            case "2":
-            //                service.AddNew();
-            //                break;
-            //            case "3":
-            //                service.Edit();
-            //                break;
-            //            case "4":
-            //                service.Delete();
-            //                break;
-            //            case "5":
-            //                service.ToggleComplete();
-            //                break;
-            //            case "6":
-            //                exit = true;
-            //                break;
-            //            default:
-            //                Console.WriteLine("Pilihan tidak valid!");
-            //                Console.ReadKey();
-            //                break;
-            //        }
-            //    }
-        //public static void Main(string[] args)
-        //{
-        //    AuthRepository authRepo = new AuthRepository();
-        //    authRepo.LoadUsers();
-        //    RegistrationModule regis = new RegistrationModule(
-        //    authRepo
-        //        );
-
-        //    regis.RegisterUser("hakim", "hakim", "hakim");
 

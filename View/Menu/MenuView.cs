@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AKMJ_TubesKPL.Data.Models;
+using AKMJ_TubesKPL.Repo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,20 +8,50 @@ using System.Threading.Tasks;
 
 namespace AKMJ_TubesKPL.View.Menu
 {
-    public class MenuView
+     class MenuView
     {
-        private static Dictionary<string, Action> crudMenu = new Dictionary<string, Action>()
+        private Dictionary<string, Action> crudMenu;
+        
+        //= new Dictionary<string, Action>()
+        //{
+        //    { "1", () => ShowToDos() },
+        //    { "2", () => CreateToDo() },
+        //    { "3", () => UpdateToDo() },
+        //    { "4", () => DeleteToDo() },
+        //};
+
+        TodoRepository todoRepo { get; set; }
+        AuthRepository authRepo { get; set; }
+        public MenuView(TodoRepository todoRepo, AuthRepository authRepo)
+        {
+            this.todoRepo = todoRepo;
+            this.authRepo = authRepo;
+
+            crudMenu = new Dictionary<string, Action>()
         {
             { "1", () => ShowToDos() },
             { "2", () => CreateToDo() },
             { "3", () => UpdateToDo() },
             { "4", () => DeleteToDo() },
+            { "5", () => Logout() },
         };
+            this.authRepo = authRepo;
+        }
 
-        public static void showDashboard()
+        private void Logout()
         {
-            Console.Clear();
+            authRepo.loggedInUser = null;
+            authRepo.activeDirectory = "";
+            todoRepo.activeTodosPath = "";
+        }
+
+        public void showDashboard()
+        {
+            // Set Active TODO PATH HERE
+            todoRepo.activeTodosPath = authRepo.activeDirectory;
+            //Console.Clear();
             Console.WriteLine($"=== APLIKASI TO DO LIST ===");
+            Console.WriteLine($"Selamat Datang : {authRepo.loggedInUser.Nama}");
             Console.WriteLine("1. Lihat To Do");
             Console.WriteLine("2. Tambah To Do");
             Console.WriteLine("3. Update To Do");
@@ -34,33 +66,38 @@ namespace AKMJ_TubesKPL.View.Menu
             }
         }
 
-        private static void ShowToDos()
+        private  void ShowToDos()
         {
             Console.WriteLine("\nDaftar ToDo: ");
-            var todos = TodoController.GetTodos();
+            var todos = todoRepo.GetAll();
 
-            for each (var todo in todos) 
+            foreach (var todo in todos) 
             {
-                Console.WriteLine($"| {todo.Id,-3} | {todo.Title,-15} | {todo.Description,-15} | {todo.Status,-15}");
+                string status = todo.IsSelesai ? "Completed" : "Not Completed";
+                Console.WriteLine($"| {todo.Id,-3} | {todo.Title,-15} | {todo.Description,-15} | {status,-15}");
             }
             Console.ReadKey();            
         }
 
-        private static void CreateToDo()
+        private  void CreateToDo()
         {
             Console.Write("\nJudul: ");
             string title = Console.ReadLine();
             Console.Write("Deskripsi: ");
             string desc = Console.ReadLine();
-            Console.Write("Status: ");
-            string stats = Console.ReadLine();
+            //Console.Write("Status: ");
+            //string stats = Console.ReadLine();
 
-            TodoController.AddTodo(title, desc, stats);
+            TodoItem newTodo = new TodoItem();
+            newTodo.Title = title;
+            newTodo.Description = desc;
+            newTodo.IsSelesai = false;
+            todoRepo.Add(newTodo);
             Console.WriteLine("Todo berhasil ditambahkan!");
             Console.ReadKey();
         }
 
-        private static void UpdateToDo()
+        private  void UpdateToDo()
         {
             ShowToDos();
 
@@ -78,13 +115,20 @@ namespace AKMJ_TubesKPL.View.Menu
             Console.Write("Deskripsi Baru (kosongkan jika tidak ingin diubah): ");
             string newDesc = Console.ReadLine();
 
-            Console.Write("Status Baru (kosongkan jika tidak ingin diubah): ");
+            Console.Write("Sudah selesai? [y/n]: ");
             string newStatus = Console.ReadLine();
+            TodoItem newTodo = new TodoItem();
 
-            bool success = TodoController.UpdateTodo(id,
-                string.IsNullOrEmpty(newTitle) ? null : newTitle,
-                string.IsNullOrEmpty(newDesc) ? null : newDesc,
-                string.IsNullOrEmpty(newStatus) ? null : newStatus);
+
+            string stats = string.IsNullOrEmpty(newStatus) ? null : newStatus;
+            bool isSelesai = stats.ToLower().Equals('y');
+
+            newTodo.Title = string.IsNullOrEmpty(newTitle) ? null : newTitle;
+            newTodo.Description = string.IsNullOrEmpty(newDesc) ? null : newDesc;
+            newTodo.IsSelesai = isSelesai;
+
+            todoRepo.Update(newTodo);
+            bool success = todoRepo.returnedCode();
 
             if (success)
             {
@@ -97,7 +141,7 @@ namespace AKMJ_TubesKPL.View.Menu
             Console.ReadKey();
         }
 
-        private static void DeleteToDo()
+        private  void DeleteToDo()
         {
             ShowToDos();
 
@@ -114,7 +158,8 @@ namespace AKMJ_TubesKPL.View.Menu
 
             if (confirm == "y")
             {
-                bool success = TodoController.DeleteTodo(id);
+               todoRepo.Delete(id);
+                bool success = todoRepo.returnedCode();
 
                 if (success)
                 {

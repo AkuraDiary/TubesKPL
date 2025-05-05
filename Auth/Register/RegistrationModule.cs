@@ -1,6 +1,6 @@
 ﻿using System;
+using AKMJ_TubesKPL.Data.Models;
 using AKMJ_TubesKPL.Repo;
-using AKMJ_TubesKPL.Repo.Models;
 using AKMJ_TubesKPL.Util;
 
 
@@ -20,6 +20,8 @@ namespace Auth.Register
 
         public bool RegisterUser(string nama, string username, string password)
         {
+            authRepository.activeDirectory = "";
+            authRepository.loggedInUser = null;
             // Validasi username
             if (!AuthUtilities.CheckForDuplicateUsername(username, authRepository.listRegisteredUser))
             {
@@ -40,7 +42,7 @@ namespace Auth.Register
             try
             {
                 authRepository.RegisterUser(newUser);
-                Console.WriteLine("Pendaftaran berhasil!");
+               
                 return true;
             }
             catch (Exception ex)

@@ -1,4 +1,4 @@
-﻿using AKMJ_TubesKPL.Repo.Models;
+﻿using AKMJ_TubesKPL.Data.Models;
 using AKMJ_TubesKPL.Util;
 using Newtonsoft.Json;
 using System;
@@ -13,19 +13,29 @@ namespace AKMJ_TubesKPL.Repo
     class AuthRepository
     {
        public List<User> listRegisteredUser { get; set; }
-       
-
+        public User loggedInUser { get; set; }
+        
         AppConfig appConfig { get; set; }
 
         public AuthRepository(AppConfig appConfig)
         {
             this.appConfig = appConfig;
         }
+        
+        public string activeDirectory { get; set; }  = "";
 
+        public void SaveSession(User loginUser)
+        {
+            this.loggedInUser = loginUser;
+            this.activeDirectory =  appConfig.StoragePath + loginUser.Username + "_" + AppConstant.userTodoListSuffix;
+        }
 
         // HAKIM - menyimpan register user ke dalam file external (runtime config)
         public void RegisterUser(User newUser)
         {
+            this.loggedInUser = null;
+            this.activeDirectory = "";
+
             List<User> users;
 
             if (File.Exists(AppConstant.userFilePath))
@@ -37,15 +47,22 @@ namespace AKMJ_TubesKPL.Repo
                 users.Add(newUser);
                 var updatedJson = JsonConvert.SerializeObject(users, Formatting.Indented);
                 File.WriteAllText(AppConstant.userFilePath, updatedJson);
+
+                // creating new todolist config for registered user
+                if (!Directory.Exists(appConfig.StoragePath))
+                {
+                    Directory.CreateDirectory(appConfig.StoragePath);
+                }
+
+
+                File.Create(appConfig.StoragePath + newUser.Username + "_" + AppConstant.userTodoListSuffix).Dispose();
             }
             else
             {
                 // create new file 
                 File.Create(AppConstant.userFilePath).Dispose();
                 RegisterUser(newUser);
-                // creating new todolist config for registered user
-                Directory.CreateDirectory(appConfig.StoragePath);
-                File.Create(appConfig.StoragePath+newUser.Username+"_"+AppConstant.userTodoListSuffix).Dispose();
+               
             }
 
             LoadUsers();

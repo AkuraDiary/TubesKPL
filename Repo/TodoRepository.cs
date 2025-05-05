@@ -14,12 +14,13 @@ namespace AKMJ_TubesKPL.Repo
     class TodoRepository : IRepository<TodoItem>
     {
         private List<TodoItem> todos = new List<TodoItem>();
-        public string activeTodosPath { get; set; } = "";
+        public string activeTodosPath { get; set; } = ""; // storage/username_todolist.json
+
         private int nextId = 1;
 
         TodoDataSource dataSource { get; set; }
 
-        TodoRepository(TodoDataSource dataSource)
+        public TodoRepository(TodoDataSource dataSource)
         {
             this.dataSource = dataSource;
         }
@@ -66,6 +67,11 @@ namespace AKMJ_TubesKPL.Repo
             Todos data = new Todos();
             data.todos = this.todos;
             dataSource.SaveToFile<Todos>(data, activeTodosPath);
+        }
+
+        internal bool returnedCode()
+        {
+            return dataSource.returnCode == 1;
         }
     }
 

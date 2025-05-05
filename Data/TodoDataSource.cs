@@ -11,6 +11,8 @@ namespace AKMJ_TubesKPL.Data
 {
     class TodoDataSource : IAppFileInteractor<Todos>
     {
+        internal int returnCode = 0;
+
         public Todos ReadFile(string filepath)
         {
             try
@@ -43,6 +45,7 @@ namespace AKMJ_TubesKPL.Data
                     var json = JsonSerializer.Serialize(data, option);
                     File.WriteAllText(filepath, json);
                     Console.WriteLine($"Successfully Updated Todos");
+                    returnCode = 1;
                 }
                 else
                 {
@@ -58,6 +61,7 @@ namespace AKMJ_TubesKPL.Data
             catch (Exception e)
             {
                 Console.WriteLine($"Error Saving File : {e.Message}");
+                returnCode = -1;
             }
 
         }

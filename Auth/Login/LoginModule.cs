@@ -1,5 +1,5 @@
-﻿using AKMJ_TubesKPL.Repo;
-using AKMJ_TubesKPL.Repo.Models;
+﻿using AKMJ_TubesKPL.Data.Models;
+using AKMJ_TubesKPL.Repo;
 using AKMJ_TubesKPL.Util;
 using System;
 using System.Collections.Generic;
@@ -16,21 +16,26 @@ namespace Auth.Login
         }
         public AuthRepository authRepository { get; set; }
 
-        public User loggedInUser { get; set; }
         // (Table Driven)
 
 
         // (Reusable Library)
             public bool Authenticate(string username, string password, out User loginUser)
             {
+            authRepository.LoadUsers();
                 loginUser = authRepository.listRegisteredUser.FirstOrDefault(u => u.Username.Equals(username) && u.Password.Equals(AuthUtilities.HashPassword(password)));
-           
+        
             return loginUser != null;
             }
 
+        public void saveSession(User loginUser)
+        {
+            authRepository.SaveSession(loginUser);
+          
+        }
         public void Deauthenticate()
         {
-            loggedInUser = null;
+            authRepository.loggedInUser = null;
         }
        
     }

@@ -1,5 +1,5 @@
-﻿using AKMJ_TubesKPL.Repo.Interface;
-using AKMJ_TubesKPL.Repo.Models;
+﻿using AKMJ_TubesKPL.Data.Models;
+using AKMJ_TubesKPL.Interface;
 using System;
 using System.Collections.Generic;
 

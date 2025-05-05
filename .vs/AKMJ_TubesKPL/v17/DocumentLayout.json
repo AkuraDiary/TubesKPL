@@ -1,69 +1,30 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|d:\\materi perkuliahan\\semester 4\\tubeskpl\\view\\menu\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:view\\menu\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|d:\\materi perkuliahan\\semester 4\\tubeskpl\\view\\authview\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:view\\authview\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|d:\\materi perkuliahan\\semester 4\\tubeskpl\\util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|d:\\materi perkuliahan\\semester 4\\tubeskpl\\repo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:repo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|d:\\materi perkuliahan\\semester 4\\tubeskpl\\auth\\authlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:auth\\authlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|d:\\materi perkuliahan\\semester 4\\tubeskpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|d:\\materi perkuliahan\\semester 4\\tubeskpl\\repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|d:\\materi perkuliahan\\semester 4\\tubeskpl\\auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
   "WorkspaceRootPath": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-<<<<<<< HEAD
->>>>>>> c854779cfb80e41fe0840fa011e83707d63a535a
-=======
+      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 3dabdbc7f371df5ae228316723e480d14a4ce8e0
+      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\view\\authview\\authview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:view\\authview\\authview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\view\\menu\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:view\\menu\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|c:\\users\\hakim al baihaqy\\documents\\semester 4\\konstruksiperangkatlunak-06\\tubeskplseta\\tubeskpl\\auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0967FBAC-72E7-43EE-B62A-C5DFF63422AB}|AKMJ_TubesKPL.csproj|solutionrelative:auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,201 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginModule.cs",
-              "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Auth\\Login\\LoginModule.cs",
-              "RelativeDocumentMoniker": "Auth\\Login\\LoginModule.cs",
-              "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Auth\\Login\\LoginModule.cs",
-              "RelativeToolTip": "Auth\\Login\\LoginModule.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAACpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:53:00.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 4,
-              "Title": "AuthLibrary.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Auth\\AuthLibrary.cs",
-              "RelativeDocumentMoniker": "Auth\\AuthLibrary.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Auth\\AuthLibrary.cs",
-              "RelativeToolTip": "Auth\\AuthLibrary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LoginModule.cs",
+              "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Auth\\Login\\LoginModule.cs",
+              "RelativeDocumentMoniker": "Auth\\Login\\LoginModule.cs",
+              "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Auth\\Login\\LoginModule.cs",
+              "RelativeToolTip": "Auth\\Login\\LoginModule.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:50:29.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuView.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\View\\Menu\\MenuView.cs",
-              "RelativeDocumentMoniker": "View\\Menu\\MenuView.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\View\\Menu\\MenuView.cs",
-              "RelativeToolTip": "View\\Menu\\MenuView.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAuwGsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:29:14.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\View\\AuthView\\UserService.cs",
-              "RelativeDocumentMoniker": "View\\AuthView\\UserService.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\View\\AuthView\\UserService.cs",
-              "RelativeToolTip": "View\\AuthView\\UserService.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADwvxEAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:21:43.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Repo\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "Repo\\AuthRepository.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Repo\\AuthRepository.cs",
-              "RelativeToolTip": "Repo\\AuthRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:08:36.356Z",
+              "WhenOpened": "2025-05-05T14:18:06.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Program.cs",
-=======
-              "DocumentIndex": 2,
               "Title": "RegistrationModule.cs",
               "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Auth\\Register\\RegistrationModule.cs",
               "RelativeDocumentMoniker": "Auth\\Register\\RegistrationModule.cs",
               "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Auth\\Register\\RegistrationModule.cs",
               "RelativeToolTip": "Auth\\Register\\RegistrationModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAApwBcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:48:42.879Z",
+              "WhenOpened": "2025-05-05T13:59:59.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Program.cs",
->>>>>>> c854779cfb80e41fe0840fa011e83707d63a535a
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:39:00.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "DocumentIndex": 2,
-              "Title": "AuthUtilities.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Util\\AuthUtilities.cs",
-              "RelativeDocumentMoniker": "Util\\AuthUtilities.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Util\\AuthUtilities.cs",
-              "RelativeToolTip": "Util\\AuthUtilities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-=======
-              "DocumentIndex": 1,
-=======
-              "DocumentIndex": 5,
->>>>>>> 3dabdbc7f371df5ae228316723e480d14a4ce8e0
-              "Title": "AppConstant.cs",
-              "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Util\\AppConstant.cs",
-              "RelativeDocumentMoniker": "Util\\AppConstant.cs",
-              "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Util\\AppConstant.cs",
-              "RelativeToolTip": "Util\\AppConstant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
->>>>>>> c854779cfb80e41fe0840fa011e83707d63a535a
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:32:25.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Repo\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Repo\\Models\\User.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Repo\\Models\\User.cs",
-              "RelativeToolTip": "Repo\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-=======
-              "DocumentIndex": 0,
-=======
-              "DocumentIndex": 3,
->>>>>>> 3dabdbc7f371df5ae228316723e480d14a4ce8e0
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Repo\\AuthRepository.cs",
               "RelativeDocumentMoniker": "Repo\\AuthRepository.cs",
               "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Repo\\AuthRepository.cs",
               "RelativeToolTip": "Repo\\AuthRepository.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCcAAAAjAAAAAAAAAA==",
->>>>>>> c854779cfb80e41fe0840fa011e83707d63a535a
-=======
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBAAAAApAAAAAAAAAA==",
->>>>>>> 3dabdbc7f371df5ae228316723e480d14a4ce8e0
+              "ViewState": "AgIAAA8AAAAAAAAAAAA/wEYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:30:22.643Z",
+              "WhenOpened": "2025-05-05T13:58:26.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "DocumentIndex": 7,
-              "Title": "RegistrationModule.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Auth\\Register\\RegistrationModule.cs",
-              "RelativeDocumentMoniker": "Auth\\Register\\RegistrationModule.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\Auth\\Register\\RegistrationModule.cs",
-              "RelativeToolTip": "Auth\\Register\\RegistrationModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:35:34.647Z"
-=======
-              "DocumentIndex": 3,
-=======
               "DocumentIndex": 4,
->>>>>>> 3dabdbc7f371df5ae228316723e480d14a4ce8e0
-              "Title": "AuthUtilities.cs",
-              "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Util\\AuthUtilities.cs",
-              "RelativeDocumentMoniker": "Util\\AuthUtilities.cs",
-              "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Util\\AuthUtilities.cs",
-              "RelativeToolTip": "Util\\AuthUtilities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACIAAAAAAAAAA==",
+              "Title": "MenuView.cs",
+              "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\View\\Menu\\MenuView.cs",
+              "RelativeDocumentMoniker": "View\\Menu\\MenuView.cs",
+              "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\View\\Menu\\MenuView.cs",
+              "RelativeToolTip": "View\\Menu\\MenuView.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAIA7wDMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:30:10.077Z",
+              "WhenOpened": "2025-05-05T13:57:51.296Z",
               "EditorCaption": ""
->>>>>>> c854779cfb80e41fe0840fa011e83707d63a535a
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthView.cs",
+              "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\View\\AuthView\\AuthView.cs",
+              "RelativeDocumentMoniker": "View\\AuthView\\AuthView.cs",
+              "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\View\\AuthView\\AuthView.cs",
+              "RelativeToolTip": "View\\AuthView\\AuthView.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAqwI8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:56:53.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:26:40.591Z",
+              "EditorCaption": ""
             }
           ]
         }
