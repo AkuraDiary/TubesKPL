@@ -19,7 +19,12 @@ namespace AKMJ_TubesKPL.Repo
         private int nextId = 1;
 
         TodoDataSource dataSource { get; set; }
-
+        public void ResetState()
+        {
+            todos = new List<TodoItem>();
+            activeTodosPath = "";
+            nextId = 1;
+        }
         public TodoRepository(TodoDataSource dataSource)
         {
             this.dataSource = dataSource;
@@ -35,7 +40,7 @@ namespace AKMJ_TubesKPL.Repo
         public IEnumerable<TodoItem> GetAll()
         {
             todos = dataSource.ReadFile(activeTodosPath).todos;
-            nextId = todos.Count + 1;
+            nextId = todos.Count;
             return todos;
         }
 
