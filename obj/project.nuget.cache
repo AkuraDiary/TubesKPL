@@ -1,8 +1,23 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0sle9+4vzBo=",
   "success": true,
   "projectFilePath": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\AKMJ_TubesKPL.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "c4j9Luy7Jtg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asus\\Documents\\github\\TubesKPL\\AKMJ_TubesKPL.csproj",
+>>>>>>> 3f9ad03d198aa2d72283df1f1092a2d938f1c968
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "JAP3LZkOCtU=",
+  "success": true,
+  "projectFilePath": "D:\\Materi Perkuliahan\\Semester 4\\TubesKPL\\AKMJ_TubesKPL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andhi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+>>>>>>> 4c16f146dcb60c7a79e152c12905a3443ec16ab5
   "logs": []
 }
