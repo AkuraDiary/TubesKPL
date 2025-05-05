@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace AKMJ_TubesKPL.Repo.Interface
 {
-    interface IAppFileInteractor<R>
+    // NANCIL
+    interface IEntity
     {
-        public void SaveToFile<T>(T data, string filepath);
-
-        public R ReadFile(string filepath);
-        
+        int Id { get; set; }
     }
 }

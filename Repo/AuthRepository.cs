@@ -13,6 +13,7 @@ namespace AKMJ_TubesKPL.Repo
     class AuthRepository
     {
        public List<User> listRegisteredUser { get; set; }
+       
 
         AppConfig appConfig { get; set; }
 

@@ -1,9 +1,10 @@
 
 ﻿using System;
-﻿using LoginApp;
 ﻿using AKMJ_TubesKPL.Repo;
 using Auth.Register;
 using AKMJ_TubesKPL.Util;
+using Auth.Login;
+using AKMJ_TubesKPL.Repo.Models;
 
 
 namespace AKMJ_TubesKPL
@@ -19,30 +20,30 @@ namespace AKMJ_TubesKPL
             appConfig.LoadAppConfig(AppConstant.defaultAppConfigPath);
 
             AuthRepository authRepo = new AuthRepository(appConfig);
-                authRepo.LoadUsers();
+           
             RegistrationModule regis = new RegistrationModule(authRepo);
+            LoginModule login = new LoginModule(authRepo);
 
             regis.RegisterUser("hakim", "hakim", "hakim");
 
-            //var users = UserData.GetUsers();
-            //var authService = new Userservice(users);
+            ////var authService = new Userservice(users);
 
-            //Console.Write("Username: ");
-            //string username = Console.ReadLine();
+            Console.Write("Username: ");
+            string username = Console.ReadLine();
 
-            //Console.Write("Password: ");
-            //string password = Console.ReadLine();
+            Console.Write("Password: ");
+            string password = Console.ReadLine();
 
-            //if (authService.Authenticate(username, password, out User user))
-            //{
-            //    Console.WriteLine($"Login berhasil {user.Username}!");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Login gagal password/username salah");
-
-            //}
-        }
+            if (login.Authenticate(username, password, out User user))
+            {
+                login.loggedInUser = user;
+                Console.WriteLine($"Login berhasil {user.Username}!");
+            }
+            else
+            {
+                Console.WriteLine("Login gagal password/username salah");
+            }
+    }
     } 
 }
             //    var repository = new TodoRepository();
