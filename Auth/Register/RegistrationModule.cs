@@ -39,9 +39,7 @@ namespace Auth.Register
             // Simpan ke file
             try
             {
-
                 authRepository.RegisterUser(newUser);
-                //AuthUtilities.WriteUserConfig(newUser, UserConfigPath);
                 Console.WriteLine("Pendaftaran berhasil!");
                 return true;
             }
