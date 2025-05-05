@@ -8,10 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Auth\Register\" />
+=======
+    <Folder Include="Auth\Login\" />
+>>>>>>> 4c16f146dcb60c7a79e152c12905a3443ec16ab5
     <Folder Include="Domain\" />
-    <Folder Include="Repo\Models\" />
     <Folder Include="View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
