@@ -8,6 +8,6 @@ namespace AKMJ_TubesKPL.Data.Models
 {
     class Todos
     {
-       public List<TodoItem> todos { get; set;}
+        public List<TodoItem> todos { get; set; } = new List<TodoItem>();
     }
 }

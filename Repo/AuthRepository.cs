@@ -33,8 +33,6 @@ namespace AKMJ_TubesKPL.Repo
         // HAKIM - menyimpan register user ke dalam file external (runtime config)
         public void RegisterUser(User newUser)
         {
-            this.loggedInUser = null;
-            this.activeDirectory = "";
 
             List<User> users;
 

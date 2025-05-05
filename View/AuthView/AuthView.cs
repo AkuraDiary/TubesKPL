@@ -111,7 +111,7 @@ namespace AKMJ_TubesKPL.View.AuthView
             string input;
             //do
             //{
-                //Console.Clear();
+                Console.Clear();
             Console.WriteLine("=== AUTH MENU ===");
                 Console.WriteLine("1. Login");
                 Console.WriteLine("2. Register");

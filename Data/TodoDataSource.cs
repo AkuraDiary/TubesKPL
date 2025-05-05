@@ -18,6 +18,11 @@ namespace AKMJ_TubesKPL.Data
             try
             {
                 string jsonString = File.ReadAllText(filepath);
+                if (jsonString.Equals(""))
+                {
+                    Console.WriteLine($"Todo masih kosong");
+                    return new Todos();
+                }
                 var todos = JsonSerializer.Deserialize<Todos>(jsonString);
                 return todos;
             }
@@ -25,7 +30,6 @@ namespace AKMJ_TubesKPL.Data
             {
                 Console.WriteLine($"Error Reading File : {e.Message}");
                 Todos todos = new Todos();
-                todos.todos = new List<TodoItem>();
                 return todos;
             }
         }

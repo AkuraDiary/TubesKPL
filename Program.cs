@@ -19,11 +19,16 @@ namespace AKMJ_TubesKPL
 
             while (true)
             {
-                DI.authView.ShowAuthMenu();
+               
 
                 if (DI.authRepo.loggedInUser != null)
                 {
                     DI.menuView.showDashboard();
+                }
+                else
+                {
+                    DI.authView.ShowAuthMenu();
+
                 }
                
             }

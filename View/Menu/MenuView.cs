@@ -49,7 +49,7 @@ namespace AKMJ_TubesKPL.View.Menu
         {
             // Set Active TODO PATH HERE
             todoRepo.activeTodosPath = authRepo.activeDirectory;
-            //Console.Clear();
+            Console.Clear();
             Console.WriteLine($"=== APLIKASI TO DO LIST ===");
             Console.WriteLine($"Selamat Datang : {authRepo.loggedInUser.Nama}");
             Console.WriteLine("1. Lihat To Do");
@@ -119,15 +119,20 @@ namespace AKMJ_TubesKPL.View.Menu
             string newStatus = Console.ReadLine();
             TodoItem newTodo = new TodoItem();
 
-
+            TodoItem oldTodo = todoRepo.GetById(id);
             string stats = string.IsNullOrEmpty(newStatus) ? null : newStatus;
-            bool isSelesai = stats.ToLower().Equals('y');
 
-            newTodo.Title = string.IsNullOrEmpty(newTitle) ? null : newTitle;
-            newTodo.Description = string.IsNullOrEmpty(newDesc) ? null : newDesc;
+            bool isSelesai = stats.ToLower().Equals("y");
+
+
+
+            newTodo.Id = id;
+            newTodo.Title = string.IsNullOrEmpty(newTitle) ? oldTodo.Title : newTitle;
+            newTodo.Description = string.IsNullOrEmpty(newDesc) ? oldTodo.Description : newDesc;
             newTodo.IsSelesai = isSelesai;
 
             todoRepo.Update(newTodo);
+
             bool success = todoRepo.returnedCode();
 
             if (success)

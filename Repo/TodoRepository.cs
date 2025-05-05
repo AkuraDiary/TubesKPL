@@ -52,6 +52,9 @@ namespace AKMJ_TubesKPL.Repo
                 existing.Title = item.Title;
                 existing.Description = item.Description;
                 existing.IsSelesai = item.IsSelesai;
+
+                //int index = todos.IndexOf(existing);
+                //todos.Insert(index, existing);
                 CommitChanges();
             }
         }
