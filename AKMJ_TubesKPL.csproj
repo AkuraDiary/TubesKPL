@@ -9,10 +9,13 @@
 
   <ItemGroup>
     <Folder Include="Auth\Login\" />
-    <Folder Include="Auth\Register\" />
     <Folder Include="Domain\" />
     <Folder Include="Repo\Models\" />
     <Folder Include="View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
