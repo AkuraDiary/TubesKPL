@@ -3,6 +3,7 @@
 ﻿using LoginApp;
 ﻿using AKMJ_TubesKPL.Repo;
 using Auth.Register;
+using AKMJ_TubesKPL.Util;
 
 
 namespace AKMJ_TubesKPL
@@ -12,6 +13,12 @@ namespace AKMJ_TubesKPL
 
         static void Main(string[] args)
         {
+
+            AppConfig appConfig = new AppConfig();
+            appConfig.InitConfig(AppConstant.defaultAppConfigPath);
+            appConfig.LoadAppConfig(AppConstant.defaultAppConfigPath);
+
+
             var users = UserData.GetUsers();
             var authService = new Userservice(users);
 

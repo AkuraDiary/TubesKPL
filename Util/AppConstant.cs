@@ -8,11 +8,8 @@ namespace AKMJ_TubesKPL.Util
 {
     class AppConstant
     {
-        public static string defaultAppConfig = @"{
-            ""UserAccountConfigPath"" : ""user_config.json"",
-            ""StoragePath"" : ""storage/""
-}";
 
         public static string userFilePath = "user_config.json";
+        public static string defaultAppConfigPath="appconfig.json";
     }
 }

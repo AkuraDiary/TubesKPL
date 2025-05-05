@@ -20,19 +20,37 @@ namespace AKMJ_TubesKPL.Repo
             UserAccountConfigPath = userAccountConfigPath;
             StoragePath = storagePath;
         }
+
+        public AppConfig()
+        {
+           
+        }
         public void InitConfig(string appConfigpath)
         {
             if (File.Exists(appConfigpath))
             {
-                SaveToFile<string>(AppConstant.defaultAppConfig, appConfigpath);
+                var config = ReadFile(appConfigpath);
+                if (!config.StoragePath.Equals("") && !config.UserAccountConfigPath.Equals(""))
+                {
+                    Console.WriteLine("Config File Found - Skipping Initialization");
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("Initializing Default Config ");
+                    SaveToFile<AppConfig>(new AppConfig(AppConstant.userFilePath, "storage\\"), appConfigpath);
+                }
+              
             }
             else
             {
                 // create new file 
-                using (File.Create(appConfigpath))
-                {
-                    InitConfig(appConfigpath);
-                }
+                Console.WriteLine("File Config not found, creating new one in " + appConfigpath);
+                File.Create(appConfigpath).Dispose();
+                
+                    Console.WriteLine("Config File Created In " + appConfigpath);
+
+                InitConfig(appConfigpath);
             }
         }  
 
@@ -57,11 +75,12 @@ namespace AKMJ_TubesKPL.Repo
             try
             {
                 string jsonString = File.ReadAllText(filepath);
+               
                 var config = JsonSerializer.Deserialize<AppConfig>(jsonString);
                 return config;
             }catch(Exception e)
             {
-                Console.WriteLine($"Error : {e.Message}");
+                Console.WriteLine($"Error Reading File : {e.Message}");
                 return new AppConfig("", "");
             }
         }
@@ -81,7 +100,7 @@ namespace AKMJ_TubesKPL.Repo
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Error : {e.Message}");
+                Console.WriteLine($"Error Save To File : {e.Message}");
                 return;
             }
          
