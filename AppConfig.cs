@@ -1,5 +1,4 @@
 ﻿using AKMJ_TubesKPL.Interface;
-using AKMJ_TubesKPL.Repo.Models;
 using AKMJ_TubesKPL.Util;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Repo
+namespace AKMJ_TubesKPL
 {
     public class AppConfig : IAppFileInteractor<AppConfig>
     {
@@ -38,7 +37,7 @@ namespace AKMJ_TubesKPL.Repo
                 else
                 {
                     Console.WriteLine("Initializing Default Config ");
-                    SaveToFile<AppConfig>(new AppConfig(AppConstant.userFilePath, "storage\\"), appConfigpath);
+                    SaveToFile(new AppConfig(AppConstant.userFilePath, "storage\\"), appConfigpath);
                 }
               
             }
@@ -59,8 +58,8 @@ namespace AKMJ_TubesKPL.Repo
             if (File.Exists(appConfigpath))
             {
                 AppConfig config = ReadFile(appConfigpath);
-                this.UserAccountConfigPath = config.UserAccountConfigPath;
-                this.StoragePath = config.StoragePath;
+                UserAccountConfigPath = config.UserAccountConfigPath;
+                StoragePath = config.StoragePath;
 
             }
             else
@@ -97,6 +96,7 @@ namespace AKMJ_TubesKPL.Repo
 
                 var json = JsonSerializer.Serialize(data, option);
                 File.WriteAllText(filepath, json);
+                Console.WriteLine($"Successfully Updated AppConfig");
             }
             catch (Exception e)
             {

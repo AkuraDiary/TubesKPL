@@ -1,5 +1,6 @@
-﻿using AKMJ_TubesKPL.Repo.Interface;
-using AKMJ_TubesKPL.Repo.Models;
+﻿using AKMJ_TubesKPL.Data;
+using AKMJ_TubesKPL.Data.Models;
+using AKMJ_TubesKPL.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,16 +14,27 @@ namespace AKMJ_TubesKPL.Repo
     class TodoRepository : IRepository<TodoItem>
     {
         private List<TodoItem> todos = new List<TodoItem>();
+        public string activeTodosPath { get; set; } = "";
         private int nextId = 1;
+
+        TodoDataSource dataSource { get; set; }
+
+        TodoRepository(TodoDataSource dataSource)
+        {
+            this.dataSource = dataSource;
+        }
 
         public void Add(TodoItem item)
         {
             item.Id = nextId++;
             todos.Add(item);
+            CommitChanges();
         }
 
         public IEnumerable<TodoItem> GetAll()
         {
+         
+            todos = dataSource.ReadFile(activeTodosPath).todos;
             return todos;
         }
 
@@ -39,12 +51,21 @@ namespace AKMJ_TubesKPL.Repo
                 existing.Title = item.Title;
                 existing.Description = item.Description;
                 existing.IsSelesai = item.IsSelesai;
+                CommitChanges();
             }
         }
 
         public void Delete(int id)
         {
             todos.RemoveAll(t => t.Id == id);
+            CommitChanges();
+        }
+
+        private void CommitChanges()
+        {
+            Todos data = new Todos();
+            data.todos = this.todos;
+            dataSource.SaveToFile<Todos>(data, activeTodosPath);
         }
     }
 

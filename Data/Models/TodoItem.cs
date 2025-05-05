@@ -1,11 +1,11 @@
-﻿using AKMJ_TubesKPL.Repo.Interface;
+﻿using AKMJ_TubesKPL.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Repo.Models
+namespace AKMJ_TubesKPL.Data.Models
 {
 
     // NANCIL
