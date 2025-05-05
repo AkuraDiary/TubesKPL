@@ -9,10 +9,14 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AKMJ_TubesKPL
 <<<<<<< HEAD
+build_property.ProjectDir = D:\Semester 4 Firnanda\konturksi\TubesKPL\
+=======
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\asus\Documents\github\TubesKPL\
 =======
 build_property.ProjectDir = D:\Materi Perkuliahan\Semester 4\TubesKPL\
 >>>>>>> 4c16f146dcb60c7a79e152c12905a3443ec16ab5
+>>>>>>> 3f9ad03d198aa2d72283df1f1092a2d938f1c968
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0

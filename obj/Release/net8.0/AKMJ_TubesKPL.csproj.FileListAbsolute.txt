@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.AssemblyInfoInputs.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.AssemblyInfo.cs
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.csproj.CoreCompileInputs.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.sourcelink.json
+=======
 C:\Users\asus\Documents\github\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\asus\Documents\github\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.AssemblyInfoInputs.cache
 C:\Users\asus\Documents\github\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.AssemblyInfo.cs
 C:\Users\asus\Documents\github\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.csproj.CoreCompileInputs.cache
 C:\Users\asus\Documents\github\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.sourcelink.json
+>>>>>>> 3f9ad03d198aa2d72283df1f1092a2d938f1c968
