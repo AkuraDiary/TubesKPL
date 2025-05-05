@@ -14,13 +14,12 @@ namespace AKMJ_TubesKPL.View.Menu
             { "2", () => CreateToDo() },
             { "3", () => UpdateToDo() },
             { "4", () => DeleteToDo() },
-            {"0", () => Program.CurrentUser = null}
         };
 
         public static void showDashboard()
         {
             Console.Clear();
-            Console.WriteLine($"=== APLIKASI TO DO LIST UNTUK ({Program.CurrentUser}) ===");
+            Console.WriteLine($"=== APLIKASI TO DO LIST ===");
             Console.WriteLine("1. Lihat To Do");
             Console.WriteLine("2. Tambah To Do");
             Console.WriteLine("3. Update To Do");
@@ -38,7 +37,7 @@ namespace AKMJ_TubesKPL.View.Menu
         private static void ShowToDos()
         {
             Console.WriteLine("\nDaftar ToDo: ");
-            var todos = TodoController.GetTodos(Program.CurrentUser);
+            var todos = TodoController.GetTodos();
 
             for each (var todo in todos) 
             {
@@ -56,7 +55,7 @@ namespace AKMJ_TubesKPL.View.Menu
             Console.Write("Status: ");
             string stats = Console.ReadLine();
 
-            TodoController.AddTodo(Program.CurrentUser, title, desc);
+            TodoController.AddTodo(title, desc, stats);
             Console.WriteLine("Todo berhasil ditambahkan!");
             Console.ReadKey();
         }
@@ -82,7 +81,7 @@ namespace AKMJ_TubesKPL.View.Menu
             Console.Write("Status Baru (kosongkan jika tidak ingin diubah): ");
             string newStatus = Console.ReadLine();
 
-            bool success = TodoController.UpdateTodo(id, Program.CurrentUser,
+            bool success = TodoController.UpdateTodo(id,
                 string.IsNullOrEmpty(newTitle) ? null : newTitle,
                 string.IsNullOrEmpty(newDesc) ? null : newDesc,
                 string.IsNullOrEmpty(newStatus) ? null : newStatus);
@@ -115,7 +114,7 @@ namespace AKMJ_TubesKPL.View.Menu
 
             if (confirm == "y")
             {
-                bool success = TodoController.DeleteTodo(id, Program.CurrentUser);
+                bool success = TodoController.DeleteTodo(id);
 
                 if (success)
                 {

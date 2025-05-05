@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Auth\Register\" />
+ 
+    <Folder Include="Repo\Models\" />
     <Folder Include="Auth\Login\" />
     <Folder Include="Domain\" />
   </ItemGroup>

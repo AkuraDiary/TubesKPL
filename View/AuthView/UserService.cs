@@ -11,10 +11,9 @@ namespace AKMJ_TubesKPL.View.AuthView
         private static readonly Dictionary<string, Action> MenuOptions = new Dictionary<string, Action>
         {
             { "1", () => ShowLoginForm() },
-            { "2", () => ShowRegisterLink() },
+            { "2", () => ShowRegisterForm() },
             { "x", () => ExitApplication() }
         };
-
         public static (string username, string password) GetLoginCredentials()
         {
             Console.Clear();
@@ -28,7 +27,6 @@ namespace AKMJ_TubesKPL.View.AuthView
 
             return (username, password);
         }
-
         public static void ShowLoginSuccess(string username)
         {
             Console.WriteLine($"\nLogin berhasil! Selamat datang, {username}!");
@@ -38,6 +36,35 @@ namespace AKMJ_TubesKPL.View.AuthView
         public static void ShowLoginError(string message)
         {
             Console.WriteLine($"\nError: {message}");
+            Console.ReadKey();
+        }
+        public static (string nama, string username, string password) GetRegisterCredentials()
+        {
+            Console.Clear();
+            Console.WriteLine("=== REGISTER ===");
+
+            Console.Write("Nama: ");
+            string nama = Console.ReadLine();
+
+            Console.Write("Username: ");
+            string username = Console.ReadLine();
+
+            Console.Write("Password: ");
+            string password = GetMaskedPassword();
+
+            return (nama, username, password);
+        }
+
+        public static void ShowRegisterSuccess(string username)
+        {
+            Console.WriteLine($"\nRegistrasi berhasil! Akun {username} telah dibuat.");
+            Console.WriteLine("Silakan login menggunakan akun Anda.");
+            Console.ReadKey();
+        }
+
+        public static void ShowRegisterError(string message)
+        {
+            Console.WriteLine($"\nError registrasi: {message}");
             Console.ReadKey();
         }
 
@@ -63,8 +90,6 @@ namespace AKMJ_TubesKPL.View.AuthView
 
             return password;
         }
-
-        
         public static void ShowAuthMenu()
         {
             string input;
@@ -92,10 +117,9 @@ namespace AKMJ_TubesKPL.View.AuthView
             
         }
 
-        private static void ShowRegisterLink()
+        private static void ShowRegisterForm()
         {
-            Console.WriteLine("\nSilakan hubungi admin untuk registrasi");
-            Console.ReadKey();
+            var (nama, username, password) = GetRegisterCredentials();
         }
 
         private static void ExitApplication()

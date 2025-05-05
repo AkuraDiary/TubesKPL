@@ -3,6 +3,8 @@ using AKMJ_TubesKPL.Repo;
 using AKMJ_TubesKPL.Repo.Models;
 using AKMJ_TubesKPL.Util;
 
+
+//HAKIM
 namespace Auth.Register
 {
     class RegistrationModule
