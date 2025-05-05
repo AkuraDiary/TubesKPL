@@ -10,7 +10,7 @@
   <ItemGroup>
     <Folder Include="Auth\Login\" />
     <Folder Include="Auth\Register\" />
-    <Folder Include="Domain\" />
+    <Folder Include="Domain\Crud\crud.cs" />
     <Folder Include="Repo\Models\" />
     <Folder Include="View\" />
   </ItemGroup>

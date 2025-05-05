@@ -1,0 +1,5 @@
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.AssemblyInfoInputs.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.AssemblyInfo.cs
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.csproj.CoreCompileInputs.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Release\net8.0\AKMJ_TubesKPL.sourcelink.json

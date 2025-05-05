@@ -1,0 +1,15 @@
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.AssemblyInfoInputs.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.AssemblyInfo.cs
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.csproj.CoreCompileInputs.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.sourcelink.json
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.exe
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.deps.json
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.runtimeconfig.json
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.pdb
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\refint\AKMJ_TubesKPL.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.pdb
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.genruntimeconfig.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\net8.0\ref\AKMJ_TubesKPL.dll
