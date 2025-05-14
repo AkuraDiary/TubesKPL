@@ -98,7 +98,7 @@ namespace AKMJ_TubesKPL.View.AuthView
             Console.ReadKey();
         }
 
-        private static void ExitApplication()
+        public static void ExitApplication()
         {
             Console.WriteLine("\nKeluar aplikasi...");
             Environment.Exit(0);

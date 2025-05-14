@@ -21,16 +21,16 @@ namespace AKMJ_TubesKPL.View.Menu
 
             crudMenu = new Dictionary<string, Action>()
         {
-            { "1", () => ShowToDos() },
-            { "2", () => CreateToDo() },
-            { "3", () => UpdateToDo() },
-            { "4", () => DeleteToDo() },
-            { "5", () => Logout() },
+            { "1", ShowToDos},
+            { "2", CreateToDo },
+            { "3", UpdateToDo},
+            { "4", DeleteToDo},
+            { "5", Logout },
         };
             this.authRepo = authRepo;
         }
 
-        private void Logout()
+        public void Logout()
         {
             authRepo.loggedInUser = null;
             authRepo.activeDirectory = "";
@@ -68,7 +68,7 @@ namespace AKMJ_TubesKPL.View.Menu
             }
         }
 
-        private  void ShowToDos()
+        public void ShowToDos()
         {
             Console.WriteLine("\nDaftar ToDo: ");
             var todos = todoRepo.GetAll();
@@ -81,7 +81,7 @@ namespace AKMJ_TubesKPL.View.Menu
             Console.ReadKey();            
         }
 
-        private  void CreateToDo()
+        public  void CreateToDo()
         {
             Console.Write("\nJudul: ");
             string title = Console.ReadLine();
@@ -97,7 +97,7 @@ namespace AKMJ_TubesKPL.View.Menu
             Console.ReadKey();
         }
 
-        private  void UpdateToDo()
+        public  void UpdateToDo()
         {
             ShowToDos();
 
@@ -146,7 +146,7 @@ namespace AKMJ_TubesKPL.View.Menu
             Console.ReadKey();
         }
 
-        private  void DeleteToDo()
+        public  void DeleteToDo()
         {
             ShowToDos();
 
