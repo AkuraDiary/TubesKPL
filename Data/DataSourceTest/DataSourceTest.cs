@@ -65,5 +65,36 @@ namespace AKMJ_TubesKPL.Data.DataSourceTest
             Assert.AreEqual(1, loadedTodos.todos.Count);
             Assert.AreEqual("Goyeng", loadedTodos.todos[0].Description);
         }
+
+        [TestMethod]
+        public void TestReadFileFromJsonString()
+        {
+            
+            string jsonString = @"
+    {
+        ""todos"": [
+            {
+                ""Id"": 1,
+                ""Title"": ""Goyeng Bebek"",
+                ""Description"": ""Bebek Goyeng"",
+                ""CreatedDate"": ""2024-05-01T10:00:00"",
+                ""IsSelesai"": true
+            }
+        ]
+    }";
+
+            File.WriteAllText(testFilePath, jsonString);
+
+            var dataSource = new TodoDataSource();
+            var todos = dataSource.ReadFile(testFilePath);
+
+            Assert.IsNotNull(todos);
+            
+            Assert.IsInstanceOfType(todos, typeof(Todos));
+
+            Assert.AreEqual(1, todos.todos.Count);
+            Assert.AreEqual("Goyeng Bebek", todos.todos[0].Title);
+            Assert.IsTrue(todos.todos[0].IsSelesai);
+        }
     }
 }
