@@ -9,10 +9,13 @@ namespace Auth.Login
 {
     
      class LoginModule{
+
+        
         public LoginModule(AuthRepository authRepository)
         {
             this.authRepository = authRepository;
             this.authRepository.LoadUsers();
+          
         }
         public AuthRepository authRepository { get; set; }
 
@@ -22,7 +25,7 @@ namespace Auth.Login
         // (Reusable Library)
             public bool Authenticate(string username, string password, out User loginUser)
             {
-            authRepository.LoadUsers();
+            //authRepository.LoadUsers();
             loginUser = authRepository.listRegisteredUser.FirstOrDefault(
                   u => u.Username.Equals(username) &&
                   LoginLibrary.EnkripsiPian.CheckPassword(
