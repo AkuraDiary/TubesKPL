@@ -1,0 +1,15 @@
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\bin\Debug\net8.0\AKMJ_TubesKPL.exe
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\bin\Debug\net8.0\AKMJ_TubesKPL.deps.json
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\bin\Debug\net8.0\AKMJ_TubesKPL.runtimeconfig.json
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\bin\Debug\net8.0\AKMJ_TubesKPL.dll
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\bin\Debug\net8.0\AKMJ_TubesKPL.pdb
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.AssemblyInfoInputs.cache
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.AssemblyInfo.cs
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.csproj.CoreCompileInputs.cache
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.sourcelink.json
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.dll
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\refint\AKMJ_TubesKPL.dll
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.pdb
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.genruntimeconfig.cache
+D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\ref\AKMJ_TubesKPL.dll

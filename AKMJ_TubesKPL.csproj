@@ -12,7 +12,6 @@
     <Folder Include="Auth\Register\" />
     <Folder Include="Domain\" />
     <Folder Include="Repo\Models\" />
-    <Folder Include="View\" />
   </ItemGroup>
 
 </Project>
