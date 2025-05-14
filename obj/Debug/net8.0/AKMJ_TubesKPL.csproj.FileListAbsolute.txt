@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\bin\Debug\net8.0\AKMJ_TubesKPL.exe
 D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\bin\Debug\net8.0\AKMJ_TubesKPL.deps.json
 D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\bin\Debug\net8.0\AKMJ_TubesKPL.runtimeconfig.json
@@ -13,3 +14,23 @@ D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0
 D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.pdb
 D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\AKMJ_TubesKPL.genruntimeconfig.cache
 D:\Materi Perkuliahan\Semester 4\KonstruksiPerangkatLunak-Tubes\obj\Debug\net8.0\ref\AKMJ_TubesKPL.dll
+=======
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.csproj.AssemblyReference.cache
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.AssemblyInfoInputs.cache
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.AssemblyInfo.cs
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.csproj.CoreCompileInputs.cache
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.sourcelink.json
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.exe
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.deps.json
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.runtimeconfig.json
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.dll
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\bin\Debug\net8.0\AKMJ_TubesKPL.pdb
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_Tub.78CD7C42.Up2Date
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.dll
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\refint\AKMJ_TubesKPL.dll
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.pdb
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\AKMJ_TubesKPL.genruntimeconfig.cache
+C:\Users\HAKIM AL BAIHAQY\Documents\SEMESTER 4\KonstruksiPerangkatLunak-06\tubeskplseta\TubesKPL\obj\Debug\net8.0\ref\AKMJ_TubesKPL.dll
+>>>>>>> b7c85ac8189cb0cf426da01d063b946124c8d0bf

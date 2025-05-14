@@ -1,8 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "5UwzctDSon4=",
   "success": true,
   "projectFilePath": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\AKMJ_TubesKPL.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "waiJAJEOSZs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\AKMJ_TubesKPL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HAKIM AL BAIHAQY\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+>>>>>>> b7c85ac8189cb0cf426da01d063b946124c8d0bf
   "logs": []
 }

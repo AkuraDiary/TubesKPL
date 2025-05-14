@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\AKMJ_TubesKPL.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\AKMJ_TubesKPL.csproj",
         "packagesPath": "C:\\Users\\andhi\\.nuget\\packages\\",
         "outputPath": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\obj\\",
+=======
+    "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\AKMJ_TubesKPL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\AKMJ_TubesKPL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\AKMJ_TubesKPL.csproj",
+        "projectName": "AKMJ_TubesKPL",
+        "projectPath": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\AKMJ_TubesKPL.csproj",
+        "packagesPath": "C:\\Users\\HAKIM AL BAIHAQY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\obj\\",
+>>>>>>> b7c85ac8189cb0cf426da01d063b946124c8d0bf
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +63,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
