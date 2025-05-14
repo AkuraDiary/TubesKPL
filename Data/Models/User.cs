@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Repo.Models
+namespace AKMJ_TubesKPL.Data.Models
 {
     public class User
     {

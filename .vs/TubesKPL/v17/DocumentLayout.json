@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Crud\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\DI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\TodoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Crud\\TodoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "crud.cs",
-              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\crud.cs",
-              "RelativeDocumentMoniker": "Domain\\Crud\\crud.cs",
-              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\crud.cs",
-              "RelativeToolTip": "Domain\\Crud\\crud.cs",
-              "ViewState": "AgIAANAAAAAAAAAAAAAUwN0AAAAAAAAAAAAAAA==",
+              "Title": "DI.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\DI.cs",
+              "RelativeDocumentMoniker": "DI.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\DI.cs",
+              "RelativeToolTip": "DI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:42:44.837Z",
+              "WhenOpened": "2025-05-14T14:00:54.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:00:48.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\TodoService.cs",
+              "RelativeDocumentMoniker": "Domain\\Crud\\TodoService.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\TodoService.cs",
+              "RelativeToolTip": "Domain\\Crud\\TodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:59:11.236Z",
               "EditorCaption": ""
             },
             {

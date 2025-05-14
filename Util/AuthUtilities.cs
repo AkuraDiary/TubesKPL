@@ -1,12 +1,13 @@
-﻿using AKMJ_TubesKPL.Repo.Models;
+﻿using AKMJ_TubesKPL.Data.Models;
 using System.Security.Cryptography;
 using System.Text;
+
 
 namespace AKMJ_TubesKPL.Util
 {
     class AuthUtilities
     {
-        public static string HashPassword(string password)
+        public static string HashPassword(string password) // HAKIM - Menggunakan library Cryptography untuk melakukan enkripsi password
         {
             using (var sha256 = SHA256.Create())
             {
