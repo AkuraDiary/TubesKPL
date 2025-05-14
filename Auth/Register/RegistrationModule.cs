@@ -23,7 +23,8 @@ namespace Auth.Register
             authRepository.activeDirectory = "";
             authRepository.loggedInUser = null;
             // Validasi username
-            if (!AuthUtilities.CheckForDuplicateUsername(username, authRepository.listRegisteredUser))
+            List<String> usernameList = authRepository.listRegisteredUser.Select(u => u.Username).ToList();
+            if (!LibraryRegister.HakimRegister.CheckForDuplicateUsername(username,usernameList))       
             {
                 Console.WriteLine("Username sudah digunakan.");
                 return false;
@@ -32,7 +33,7 @@ namespace Auth.Register
             // Buat user baru
             User newUser = new User
             {
-                Id = AuthUtilities.GenerateUserId(authRepository.listRegisteredUser),
+                Id = LibraryRegister.HakimRegister.GenerateUserId(usernameList),
                 Nama = nama,
                 Username = username,
                 Password = AuthUtilities.HashPassword(password)
