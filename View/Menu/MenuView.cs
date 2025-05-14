@@ -10,15 +10,7 @@ namespace AKMJ_TubesKPL.View.Menu
 {
      class MenuView
     {
-        private Dictionary<string, Action> crudMenu;
-        
-        //= new Dictionary<string, Action>()
-        //{
-        //    { "1", () => ShowToDos() },
-        //    { "2", () => CreateToDo() },
-        //    { "3", () => UpdateToDo() },
-        //    { "4", () => DeleteToDo() },
-        //};
+        public Dictionary<string, Action> crudMenu;
 
         TodoRepository todoRepo { get; set; }
         AuthRepository authRepo { get; set; }
@@ -45,6 +37,18 @@ namespace AKMJ_TubesKPL.View.Menu
             todoRepo.ResetState();
         }
 
+        public string getDashboardMenu()
+        {
+            var builder = new StringBuilder();
+            builder.AppendLine("1. Lihat To Do");
+            builder.AppendLine("2. Tambah To Do");
+            builder.AppendLine("3. Update To Do");
+            builder.AppendLine("4. Delete To Do");
+            builder.AppendLine("5. Logout");
+            return builder.ToString();
+
+        }
+
         public void showDashboard()
         {
             // Set Active TODO PATH HERE
@@ -52,11 +56,9 @@ namespace AKMJ_TubesKPL.View.Menu
             Console.Clear();
             Console.WriteLine($"=== APLIKASI TO DO LIST ===");
             Console.WriteLine($"Selamat Datang : {authRepo.loggedInUser.Nama}");
-            Console.WriteLine("1. Lihat To Do");
-            Console.WriteLine("2. Tambah To Do");
-            Console.WriteLine("3. Update To Do");
-            Console.WriteLine("4. Delete To Do");
-            Console.WriteLine("5. Logout");
+
+            Console.WriteLine(getDashboardMenu());
+
             Console.WriteLine("Pilihan: ");
 
             var choice = Console.ReadLine();
@@ -85,8 +87,6 @@ namespace AKMJ_TubesKPL.View.Menu
             string title = Console.ReadLine();
             Console.Write("Deskripsi: ");
             string desc = Console.ReadLine();
-            //Console.Write("Status: ");
-            //string stats = Console.ReadLine();
 
             TodoItem newTodo = new TodoItem();
             newTodo.Title = title;

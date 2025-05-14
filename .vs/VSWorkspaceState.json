@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Auth\\Login",
+    "\\Auth\\Register",
+    "\\View",
+    "\\View\\AuthView",
+    "\\View\\Menu",
+    "\\View\\Testing"
   ],
   "SelectedNode": "\\AKMJ_TubesKPL.sln",
   "PreviewInSolutionExplorer": false

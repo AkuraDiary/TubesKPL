@@ -8,11 +8,11 @@ namespace AKMJ_TubesKPL.View.AuthView
 {
     public class UserService
     {
-        private static readonly Dictionary<string, Action> MenuOptions = new Dictionary<string, Action>
+        internal static Dictionary<string, Action> MenuOptions = new Dictionary<string, Action>
         {
-            { "1", () => ShowLoginForm() },
-            { "2", () => ShowRegisterLink() },
-            { "x", () => ExitApplication() }
+            { "1",ShowLoginForm },
+            { "2",ShowRegisterLink },
+            { "x",ExitApplication }
         };
 
         public static (string username, string password) GetLoginCredentials()
@@ -65,7 +65,7 @@ namespace AKMJ_TubesKPL.View.AuthView
         }
 
         
-        public static void ShowAuthMenu()
+        public  void ShowAuthMenu()
         {
             string input;
             do
@@ -86,13 +86,13 @@ namespace AKMJ_TubesKPL.View.AuthView
             } while (input != "x");
         }
 
-        private static void ShowLoginForm()
+        public static void ShowLoginForm()
         {
             var (username, password) = GetLoginCredentials();
             
         }
 
-        private static void ShowRegisterLink()
+        public static void ShowRegisterLink()
         {
             Console.WriteLine("\nSilakan hubungi admin untuk registrasi");
             Console.ReadKey();
