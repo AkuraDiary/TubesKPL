@@ -15,6 +15,6 @@ namespace AKMJ_TubesKPL.Data.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
-        public bool IsSelesai { get; set; }
+        public bool IsSelesai { get; set; } = false;
     }
 }
