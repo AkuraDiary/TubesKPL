@@ -10,7 +10,7 @@ namespace Domain.Crud
     // NANCIL
     class TodoService
     {
-        private readonly IRepository<TodoItem> repository;
+        internal readonly IRepository<TodoItem> repository;
 
         public TodoService(IRepository<TodoItem> repo)
         {

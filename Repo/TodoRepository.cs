@@ -13,7 +13,7 @@ namespace AKMJ_TubesKPL.Repo
     // NANCIL
     class TodoRepository : IRepository<TodoItem>
     {
-        private List<TodoItem> todos = new List<TodoItem>();
+        internal List<TodoItem> todos = new List<TodoItem>();
         public string activeTodosPath { get; set; } = ""; // storage/username_todolist.json
 
         private int nextId = 1;

@@ -5,16 +5,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Auth\Register\" />
  
     <Folder Include="Repo\Models\" />
-    <Folder Include="Domain\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MSTest" Version="3.8.3" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
