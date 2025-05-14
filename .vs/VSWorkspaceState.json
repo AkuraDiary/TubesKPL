@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Domain",
-    "\\Domain\\Crud"
+    "\\Domain\\Crud",
+    "\\View"
   ],
-  "SelectedNode": "\\Domain\\Crud\\crud.cs",
+  "SelectedNode": "\\View",
   "PreviewInSolutionExplorer": false
 }
