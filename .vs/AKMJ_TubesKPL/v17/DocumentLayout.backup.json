@@ -66,11 +66,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+=======
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+>>>>>>> b7c85ac8189cb0cf426da01d063b946124c8d0bf
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
@@ -81,7 +91,7 @@
               "RelativeDocumentMoniker": "View\\AuthView\\UserService.cs",
               "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\View\\AuthView\\UserService.cs",
               "RelativeToolTip": "View\\AuthView\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T09:01:20.052Z",
               "EditorCaption": ""
@@ -98,10 +108,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-01T09:09:00.279Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
@@ -134,8 +140,7 @@
               "RelativeToolTip": "Data\\TodoDataSource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:22:40.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T14:22:40.994Z"
             },
             {
               "$type": "Document",
@@ -147,8 +152,7 @@
               "RelativeToolTip": "Repo\\TodoRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwBgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:22:33.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T14:22:33.056Z"
             },
             {
               "$type": "Document",
@@ -172,8 +176,7 @@
               "RelativeToolTip": "Auth\\Login\\LoginModule.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:18:06.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T14:18:06.305Z"
             },
             {
               "$type": "Document",
@@ -197,8 +200,7 @@
               "RelativeToolTip": "Repo\\AuthRepository.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAIwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:58:26.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T13:58:26.167Z"
             },
             {
               "$type": "Document",
@@ -208,7 +210,7 @@
               "RelativeDocumentMoniker": "View\\Menu\\MenuView.cs",
               "ToolTip": "C:\\Users\\HAKIM AL BAIHAQY\\Documents\\SEMESTER 4\\KonstruksiPerangkatLunak-06\\tubeskplseta\\TubesKPL\\View\\Menu\\MenuView.cs",
               "RelativeToolTip": "View\\Menu\\MenuView.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwCgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswCgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T13:57:51.296Z",
               "EditorCaption": ""
