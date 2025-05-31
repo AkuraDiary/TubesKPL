@@ -32,7 +32,6 @@ namespace GuiModul.Data
                     Console.WriteLine("File Not Found, Creating File " + filepath);
                     // create new file
 
-
                     string dirPath = filepath.Split("\\".ToCharArray())[0];
                     Directory.CreateDirectory(dirPath);
                     File.Create(filepath).Dispose();

@@ -1,0 +1,58 @@
+{
+  "todos": [
+    {
+      "Id": 0,
+      "Title": "Todo Detail",
+      "Description": "Todo Detail",
+      "CreatedDate": "2025-05-31T16:58:14.0030484+07:00",
+      "IsSelesai": false,
+      "Status": 0,
+      "Deadline": "2025-05-31T16:58:01"
+    },
+    {
+      "Id": 1,
+      "Title": "Todo Detail",
+      "Description": "Todo Detail",
+      "CreatedDate": "2025-05-31T17:01:56.6822982+07:00",
+      "IsSelesai": false,
+      "Status": 2,
+      "Deadline": "2025-06-02T17:01:39"
+    },
+    {
+      "Id": 2,
+      "Title": "aku",
+      "Description": "aku",
+      "CreatedDate": "2025-05-31T17:02:38.0975638+07:00",
+      "IsSelesai": false,
+      "Status": 2,
+      "Deadline": "2025-06-05T17:02:18"
+    },
+    {
+      "Id": 3,
+      "Title": "lalal",
+      "Description": "alala",
+      "CreatedDate": "2025-05-31T17:05:30.6548845+07:00",
+      "IsSelesai": false,
+      "Status": 0,
+      "Deadline": "2025-06-03T17:05:15"
+    },
+    {
+      "Id": 4,
+      "Title": "opo",
+      "Description": "asdfghjkl",
+      "CreatedDate": "2025-05-31T17:06:37.5239117+07:00",
+      "IsSelesai": false,
+      "Status": 2,
+      "Deadline": "2025-05-31T17:06:26.8310289+07:00"
+    },
+    {
+      "Id": 5,
+      "Title": "aku",
+      "Description": "aku",
+      "CreatedDate": "2025-05-31T17:07:09.0959757+07:00",
+      "IsSelesai": false,
+      "Status": 1,
+      "Deadline": "2025-05-31T17:06:57.289596+07:00"
+    }
+  ]
+}

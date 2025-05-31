@@ -13,10 +13,20 @@ namespace GuiModul
 {
     public partial class FormAdd: Form
     {
-        public FormAdd()
+        TodoItem selectedItem = null;
+        public FormAdd(TodoItem item = null)
         {
             InitializeComponent();
-            //String Title = tbtitle;
+            if (item != null)
+            {
+                this.selectedItem = item;
+                tbtitle.Text = item.Title;
+                tbDescription.Text = item.Description;
+                deadline.Value = item.Deadline;
+                cbstatus.SelectedItem = item.Status;
+
+                label1.Text = "Update TODO";
+            }
 
         }
 
@@ -24,19 +34,22 @@ namespace GuiModul
         {
             String Title = tbtitle.Text;
             String Description = tbDescription.Text;
-            
-            //untuk status melalui enum
-            cbstatus.DataSource = Enum.GetValues(typeof(Status));
 
-            Status selectedStatus = (Status)cbstatus.SelectedItem;
+            //untuk status melalui enum
+            //cbstatus.DataSource = Enum.GetValues(typeof(Status));
+
+            Status selectedStatus;  
+            Enum.TryParse(cbstatus.SelectedItem.ToString(), out selectedStatus);
 
             TodoItem item = new TodoItem();
-            item.TodoStatus = selectedStatus;
+            item.Title = Title;
+            item.Description = Description;
+            item.Status = selectedStatus;
 
-            cbstatus.SelectedItem = item.TodoStatus;
-
+            //cbstatus.SelectedItem = item.Status;
+            item.Deadline = deadline.Value;
             //untuk deadline
-            deadline.Value = item.Deadline;
+            //deadline.Value = item.Deadline;
 
             if (deadline.Value < DateTime.Today)
             {
@@ -44,10 +57,27 @@ namespace GuiModul
                 return;
             }
 
-            DI.todoRepo.Add(item);
+            if (selectedItem != null)
+            {
+                selectedItem.Title = Title;
+                selectedItem.Description = Description;
+                selectedItem.Status = selectedStatus;
 
-            InitializeComponent();
+                //cbstatus.SelectedItem = item.Status;
+                selectedItem.Deadline = deadline.Value;
+                //untuk deadline
+                //deadline.Value = item.Deadline;
+                DI.todoRepo.Update(selectedItem);
+            }
+            else
+            {
+                DI.todoRepo.Add(item);
 
+            }
+
+
+            //InitializeComponent();
+            this.Hide();
             MenuView menuview = new MenuView();
             menuview.Show();
         }
@@ -61,5 +91,7 @@ namespace GuiModul
         {
 
         }
+
+
     }
 }

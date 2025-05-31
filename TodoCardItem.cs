@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace GuiModul
 {
+
     public partial class TodoCardItem : UserControl
     {
         TodoItem item;
@@ -21,8 +22,36 @@ namespace GuiModul
 
             lblTitle.Text = todoItem.Title;
             deskripsi.Text = todoItem.Description;
-            
+            if (todoItem.Status == Status.Belum)
+            {
+                lblStatus.Text = "Belum";
+                lblStatus.BackColor = Color.Gold;
+            }
+            else if (todoItem.Status == Status.Tenggat)
+            {
+                lblStatus.Text = "Tenggat";
+                lblStatus.BackColor = Color.Red;
+                lblStatus.ForeColor = Color.White;
+            }
+            else if (todoItem.Status == Status.Selesai)
+            {
+                lblStatus.Text = "Selesai";
+                lblStatus.BackColor = Color.Green;
+                lblStatus.ForeColor = Color.White;
+            }
         }
 
+        private void btnViewDetail_Click(object sender, EventArgs e)
+        {
+
+            FormCrud formCrud = new FormCrud(item);
+            formCrud.Show();
+            this.Hide();
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -75,6 +75,7 @@
             this.PenampungList.Name = "PenampungList";
             this.PenampungList.Size = new System.Drawing.Size(1487, 626);
             this.PenampungList.TabIndex = 1;
+           
             // 
             // btnTambah
             // 

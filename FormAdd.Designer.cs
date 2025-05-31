@@ -128,7 +128,7 @@
             this.cbstatus.Items.AddRange(new object[] {
             "Selesai",
             "Belum",
-            "tenggat"});
+            "Tenggat"});
             this.cbstatus.Location = new System.Drawing.Point(16, 299);
             this.cbstatus.Name = "cbstatus";
             this.cbstatus.Size = new System.Drawing.Size(282, 21);
