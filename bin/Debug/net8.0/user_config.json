@@ -1,6 +1,17 @@
 [
   {
     "Id": 1,
+<<<<<<< HEAD
+    "Nama": "seta",
+    "Username": "seta",
+    "Password": "8c8978cd7982d691c64d813efb1d4afb97acc793da3e39a68d046e2a93ae2be6"
+  },
+  {
+    "Id": 2,
+    "Nama": "timo",
+    "Username": "timo",
+    "Password": "85ee877a32d85a6178900edb730f4fad69d85d9e33ccb42f9ddd61e6d75d9f4b"
+=======
     "Nama": "nancil",
     "Username": "nancil123",
     "Password": "b02c13e84d80915172228acef19f2707e5341656448892addf146dc746301290"
@@ -10,5 +21,6 @@
     "Nama": "lala",
     "Username": "lala",
     "Password": "494414ded24da13c451b13b424928821351c78fce49f93d9e1b55f102790c206"
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
   }
 ]
