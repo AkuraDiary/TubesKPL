@@ -3,17 +3,49 @@
   "WorkspaceRootPath": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,22 +62,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,20 +84,16 @@
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
 =======
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -194,7 +206,7 @@
         {
           "DockedWidth": 200,
 <<<<<<< HEAD
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
 =======
           "SelectedChildIndex": 23,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
@@ -206,68 +218,39 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
-              "DocumentIndex": 1,
-              "Title": "FormCrud.cs",
-              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
-              "RelativeDocumentMoniker": "FormCrud.cs",
-              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs*",
-              "RelativeToolTip": "FormCrud.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T05:24:12.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormCrud.cs [Design]",
-              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
-              "RelativeDocumentMoniker": "FormCrud.cs",
-              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs [Design]*",
-              "RelativeToolTip": "FormCrud.cs [Design]*",
+              "Title": "FormStatus.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormStatus.cs",
+              "RelativeDocumentMoniker": "FormStatus.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormStatus.cs [Design]",
+              "RelativeToolTip": "FormStatus.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T05:18:17.213Z",
+              "WhenOpened": "2025-05-31T06:36:46.216Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AppConstant.cs",
-              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AppConstant.cs",
-              "RelativeDocumentMoniker": "Util\\AppConstant.cs",
-              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AppConstant.cs",
-              "RelativeToolTip": "Util\\AppConstant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FormAdd.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormAdd.cs",
+              "RelativeDocumentMoniker": "FormAdd.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormAdd.cs [Design]",
+              "RelativeToolTip": "FormAdd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:50:21.301Z"
+              "WhenOpened": "2025-05-31T06:19:52.272Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthUtilities.cs",
-              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AuthUtilities.cs",
-              "RelativeDocumentMoniker": "Util\\AuthUtilities.cs",
-              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AuthUtilities.cs",
-              "RelativeToolTip": "Util\\AuthUtilities.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBoAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "FormCrud.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
+              "RelativeDocumentMoniker": "FormCrud.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
+              "RelativeToolTip": "FormCrud.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:50:12.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IRepository.cs",
-              "RelativeDocumentMoniker": "Interface\\IRepository.cs",
-              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IRepository.cs",
-              "RelativeToolTip": "Interface\\IRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:48:58.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "WhenOpened": "2025-05-31T05:24:12.958Z",
 =======
               "DocumentIndex": 7,
               "Title": "RegisterModul.Designer.cs",
@@ -290,10 +273,26 @@
               "ViewState": "AgIAACkAAAAAAAAAAAAswDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T05:32:42.634Z",
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 2,
+              "Title": "FormCrud.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
+              "RelativeDocumentMoniker": "FormCrud.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs [Design]",
+              "RelativeToolTip": "FormCrud.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:18:17.213Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+=======
               "DocumentIndex": 6,
               "Title": "RegisterModul.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegisterModul.cs",
@@ -319,10 +318,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "AppConstant.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Util\\AppConstant.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AppConstant.cs",
               "RelativeDocumentMoniker": "Util\\AppConstant.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Util\\AppConstant.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AppConstant.cs",
               "RelativeToolTip": "Util\\AppConstant.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -330,11 +330,15 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 15,
+=======
               "DocumentIndex": 16,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "AuthUtilities.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Util\\AuthUtilities.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AuthUtilities.cs",
               "RelativeDocumentMoniker": "Util\\AuthUtilities.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Util\\AuthUtilities.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AuthUtilities.cs",
               "RelativeToolTip": "Util\\AuthUtilities.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAiwBoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -342,18 +346,25 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 7,
+=======
               "DocumentIndex": 19,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Interface\\IRepository.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IRepository.cs",
               "RelativeDocumentMoniker": "Interface\\IRepository.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Interface\\IRepository.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IRepository.cs",
               "RelativeToolTip": "Interface\\IRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:48:58.183Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 8,
+=======
               "DocumentIndex": 20,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "IEntity.cs",
@@ -384,7 +395,7 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
 =======
               "DocumentIndex": 13,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
@@ -393,14 +404,14 @@
               "RelativeDocumentMoniker": "Domain\\Crud\\TodoService.cs",
               "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\TodoService.cs",
               "RelativeToolTip": "Domain\\Crud\\TodoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:48:19.663Z"
             },
             {
               "$type": "Document",
 <<<<<<< HEAD
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
 =======
               "DocumentIndex": 12,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
@@ -409,14 +420,17 @@
               "RelativeDocumentMoniker": "Repo\\TodoRepository.cs",
               "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Repo\\TodoRepository.cs",
               "RelativeToolTip": "Repo\\TodoRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA8wCoAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwCoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:47:36.545Z"
-<<<<<<< HEAD
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+<<<<<<< HEAD
+              "DocumentIndex": 20,
+=======
+              "DocumentIndex": 21,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\User.cs",
               "RelativeDocumentMoniker": "Data\\Models\\User.cs",
@@ -428,7 +442,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+<<<<<<< HEAD
+              "DocumentIndex": 21,
+=======
+              "DocumentIndex": 22,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "Todos.cs",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\Todos.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Todos.cs",
@@ -440,19 +458,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+<<<<<<< HEAD
+              "DocumentIndex": 3,
+=======
+              "DocumentIndex": 2,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "TodoItem.cs",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\TodoItem.cs",
               "RelativeDocumentMoniker": "Data\\Models\\TodoItem.cs",
               "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\TodoItem.cs",
               "RelativeToolTip": "Data\\Models\\TodoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:46:42.639Z"
+              "WhenOpened": "2025-05-31T04:46:42.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+<<<<<<< HEAD
+              "DocumentIndex": 14,
+=======
+              "DocumentIndex": 11,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "TodoDataSource.cs",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\TodoDataSource.cs",
               "RelativeDocumentMoniker": "Data\\TodoDataSource.cs",
@@ -464,7 +491,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+<<<<<<< HEAD
+              "DocumentIndex": 6,
+=======
+              "DocumentIndex": 15,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Repo\\AuthRepository.cs",
               "RelativeDocumentMoniker": "Repo\\AuthRepository.cs",
@@ -476,7 +507,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+<<<<<<< HEAD
+              "DocumentIndex": 18,
+=======
+              "DocumentIndex": 17,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "AppConfig.cs",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\AppConfig.cs",
               "RelativeDocumentMoniker": "AppConfig.cs",
@@ -488,7 +523,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+<<<<<<< HEAD
+              "DocumentIndex": 16,
+=======
+              "DocumentIndex": 8,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "RegistrationModule.cs",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Auth\\Register\\RegistrationModule.cs",
               "RelativeDocumentMoniker": "Auth\\Register\\RegistrationModule.cs",
@@ -500,96 +539,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-=======
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\User.cs",
-              "RelativeToolTip": "Data\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:46:54.914Z"
-            },
-            {
-              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 22,
-              "Title": "Todos.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\Todos.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\Todos.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\Todos.cs",
-              "RelativeToolTip": "Data\\Models\\Todos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:46:48.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\TodoItem.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\TodoItem.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\TodoItem.cs",
-              "RelativeToolTip": "Data\\Models\\TodoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:46:42.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TodoDataSource.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\TodoDataSource.cs",
-              "RelativeDocumentMoniker": "Data\\TodoDataSource.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\TodoDataSource.cs",
-              "RelativeToolTip": "Data\\TodoDataSource.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwB8AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:46:10.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Repo\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "Repo\\AuthRepository.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Repo\\AuthRepository.cs",
-              "RelativeToolTip": "Repo\\AuthRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwDAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:45:36.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AppConfig.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\AppConfig.cs",
-              "RelativeDocumentMoniker": "AppConfig.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\AppConfig.cs",
-              "RelativeToolTip": "AppConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:44:34.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegistrationModule.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegistrationModule.cs",
-              "RelativeDocumentMoniker": "Auth\\Register\\RegistrationModule.cs",
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegistrationModule.cs",
-              "RelativeToolTip": "Auth\\Register\\RegistrationModule.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:44:24.445Z"
-            },
-            {
-              "$type": "Document",
+=======
               "DocumentIndex": 23,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "RegistrationModule.cs",
@@ -601,7 +553,7 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
 =======
               "DocumentIndex": 3,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
@@ -617,7 +569,7 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
 =======
               "DocumentIndex": 10,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
@@ -636,11 +588,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 22,
-=======
               "DocumentIndex": 24,
->>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "App.config",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -652,45 +600,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+<<<<<<< HEAD
+              "DocumentIndex": 12,
+=======
+              "DocumentIndex": 0,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "LoginView.cs",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
               "RelativeDocumentMoniker": "LoginView.cs",
-<<<<<<< HEAD
               "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
               "RelativeToolTip": "LoginView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
-=======
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs*",
-              "RelativeToolTip": "LoginView.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwEMAAAAAAAAAAAAAAA==",
->>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:11:38.89Z"
             },
             {
               "$type": "Document",
 <<<<<<< HEAD
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
 =======
               "DocumentIndex": 1,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Title": "LoginView.cs [Design]",
               "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
               "RelativeDocumentMoniker": "LoginView.cs",
-<<<<<<< HEAD
               "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs [Design]",
-=======
-              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs [Design]*",
-              "RelativeToolTip": "LoginView.cs [Design]*",
->>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:11:22.749Z"
             },
             {
               "$type": "Document",
 <<<<<<< HEAD
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
 =======
               "DocumentIndex": 9,
 >>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
