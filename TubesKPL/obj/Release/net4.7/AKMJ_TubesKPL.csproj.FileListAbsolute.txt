@@ -1,0 +1,6 @@
+C:\Users\asus\Documents\github\GuiModul\TubesKPL\obj\Release\net4.7\AKMJ_TubesKPL.csproj.AssemblyReference.cache
+C:\Users\asus\Documents\github\GuiModul\TubesKPL\obj\Release\net4.7\AKMJ_TubesKPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Documents\github\GuiModul\TubesKPL\obj\Release\net4.7\AKMJ_TubesKPL.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\github\GuiModul\TubesKPL\obj\Release\net4.7\AKMJ_TubesKPL.AssemblyInfo.cs
+C:\Users\asus\Documents\github\GuiModul\TubesKPL\obj\Release\net4.7\AKMJ_TubesKPL.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\github\GuiModul\TubesKPL\obj\Release\net4.7\AKMJ_TubesKPL.sourcelink.json

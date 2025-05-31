@@ -1,17 +1,18 @@
-﻿using AKMJ_TubesKPL.Data;
-using AKMJ_TubesKPL.Data.Models;
-using AKMJ_TubesKPL.Interface;
+﻿
+using GuiModul.Data;
+using GuiModul.Data.Models;
+using GuiModul.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Repo
+namespace GuiModul.Repo
 {
 
     // NANCIL
-    class TodoRepository : IRepository<TodoItem>
+    public class TodoRepository : IRepository<TodoItem>
     {
         private List<TodoItem> todos = new List<TodoItem>();
         public string activeTodosPath { get; set; } = ""; // storage/username_todolist.json

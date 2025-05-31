@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Data.Models
+namespace GuiModul.Data.Models
 {
-    class Todos
+   public class Todos
     {
         public List<TodoItem> todos { get; set; } = new List<TodoItem>();
     }

@@ -1,13 +1,13 @@
-﻿using System;
-using AKMJ_TubesKPL.Data.Models;
-using AKMJ_TubesKPL.Repo;
-using AKMJ_TubesKPL.Util;
+﻿using GuiModul.Data.Models;
+using GuiModul.Repo;
+using GuiModul.Util;
+using System;
 
 
 //HAKIM
-namespace Auth.Register
+namespace GuiModul.Auth.Register
 {
-    class RegistrationModule
+    public class RegistrationModule
     {
         public AuthRepository authRepository { get; set; }
 

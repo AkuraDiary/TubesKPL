@@ -1,10 +1,10 @@
-﻿using AKMJ_TubesKPL.Data.Models;
-using AKMJ_TubesKPL.Interface;
+﻿using GuiModul.Data.Models;
+using GuiModul.Interface;
 using System;
-using System.Collections.Generic;
+using System.Linq;
 
 
-namespace Domain.Crud
+namespace GuiModul.Domain.Crud
 {
 
     // NANCIL

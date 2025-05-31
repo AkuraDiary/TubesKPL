@@ -1,16 +1,14 @@
-﻿using AKMJ_TubesKPL.Data.Models;
-using AKMJ_TubesKPL.Interface;
+﻿using GuiModul.Data.Models;
+using GuiModul.Interface;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.IO;
 using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Data
+namespace GuiModul.Data
 {
-    class TodoDataSource : IAppFileInteractor<Todos>
+    public class TodoDataSource : IAppFileInteractor<Todos>
     {
+        private const string separator = "\\";
         internal int returnCode = 0;
 
         public Todos ReadFile(string filepath)
@@ -34,7 +32,8 @@ namespace AKMJ_TubesKPL.Data
                     Console.WriteLine("File Not Found, Creating File " + filepath);
                     // create new file
 
-                    string dirPath = filepath.Split("\\")[0];
+
+                    string dirPath = filepath.Split("\\".ToCharArray())[0];
                     Directory.CreateDirectory(dirPath);
                     File.Create(filepath).Dispose();
                     Console.WriteLine("File Created In " + filepath);

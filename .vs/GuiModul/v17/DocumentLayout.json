@@ -1,0 +1,378 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\Documents\\github\\GuiModul\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\register\\RegistrationModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Auth\\Register\\register\\RegistrationModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppConstant.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Util\\AppConstant.cs",
+              "RelativeDocumentMoniker": "Util\\AppConstant.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Util\\AppConstant.cs",
+              "RelativeToolTip": "Util\\AppConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:50:21.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthUtilities.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Util\\AuthUtilities.cs",
+              "RelativeDocumentMoniker": "Util\\AuthUtilities.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Util\\AuthUtilities.cs",
+              "RelativeToolTip": "Util\\AuthUtilities.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:50:12.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Interface\\IRepository.cs",
+              "RelativeToolTip": "Interface\\IRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:48:58.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Interface\\IEntity.cs",
+              "RelativeDocumentMoniker": "Interface\\IEntity.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Interface\\IEntity.cs",
+              "RelativeToolTip": "Interface\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:48:51.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAppFileInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Interface\\IAppFileInteractor.cs",
+              "RelativeDocumentMoniker": "Interface\\IAppFileInteractor.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Interface\\IAppFileInteractor.cs",
+              "RelativeToolTip": "Interface\\IAppFileInteractor.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:48:38.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Domain\\Crud\\TodoService.cs",
+              "RelativeDocumentMoniker": "Domain\\Crud\\TodoService.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Domain\\Crud\\TodoService.cs",
+              "RelativeToolTip": "Domain\\Crud\\TodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:48:19.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Repo\\TodoRepository.cs",
+              "RelativeDocumentMoniker": "Repo\\TodoRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Repo\\TodoRepository.cs",
+              "RelativeToolTip": "Repo\\TodoRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA8wCoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:47:36.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\User.cs",
+              "RelativeToolTip": "Data\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:46:54.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Todos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\Todos.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Todos.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\Todos.cs",
+              "RelativeToolTip": "Data\\Models\\Todos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:46:48.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Data\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:46:42.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoDataSource.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\TodoDataSource.cs",
+              "RelativeDocumentMoniker": "Data\\TodoDataSource.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Data\\TodoDataSource.cs",
+              "RelativeToolTip": "Data\\TodoDataSource.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:46:10.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Repo\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Repo\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Repo\\AuthRepository.cs",
+              "RelativeToolTip": "Repo\\AuthRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:45:36.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\AppConfig.cs",
+              "RelativeDocumentMoniker": "AppConfig.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\AppConfig.cs",
+              "RelativeToolTip": "AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:44:34.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrationModule.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegistrationModule.cs",
+              "RelativeDocumentMoniker": "Auth\\Register\\RegistrationModule.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegistrationModule.cs",
+              "RelativeToolTip": "Auth\\Register\\RegistrationModule.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:44:24.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegistrationModule.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\register\\RegistrationModule.cs",
+              "RelativeDocumentMoniker": "Auth\\Register\\register\\RegistrationModule.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\register\\RegistrationModule.cs",
+              "RelativeToolTip": "Auth\\Register\\register\\RegistrationModule.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:42:47.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginModule.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Login\\LoginModule.cs",
+              "RelativeDocumentMoniker": "Auth\\Login\\LoginModule.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Login\\LoginModule.cs",
+              "RelativeToolTip": "Auth\\Login\\LoginModule.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBkAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:42:19.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DI.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\DI.cs",
+              "RelativeDocumentMoniker": "DI.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\DI.cs",
+              "RelativeToolTip": "DI.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:39:53.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-31T04:26:03.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs",
+              "RelativeDocumentMoniker": "LoginView.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs",
+              "RelativeToolTip": "LoginView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:11:38.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs",
+              "RelativeDocumentMoniker": "LoginView.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs [Design]",
+              "RelativeToolTip": "LoginView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:11:22.749Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:10:31.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

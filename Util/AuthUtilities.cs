@@ -1,9 +1,12 @@
-﻿using AKMJ_TubesKPL.Data.Models;
+﻿
+using GuiModul.Data.Models;
+using System;
+using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
 
 
-namespace AKMJ_TubesKPL.Util
+namespace GuiModul.Util
 {
     class AuthUtilities
     {

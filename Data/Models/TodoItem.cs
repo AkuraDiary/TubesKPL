@@ -1,15 +1,11 @@
-﻿using AKMJ_TubesKPL.Interface;
+﻿using GuiModul.Interface;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Data.Models
+namespace GuiModul.Data.Models
 {
 
     // NANCIL
-    class TodoItem : IEntity
+    public class TodoItem : IEntity
     {
         public int Id { get; set; }
         public string Title { get; set; }

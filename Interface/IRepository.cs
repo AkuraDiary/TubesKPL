@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Interface
+namespace GuiModul.Interface
 {
 
     // NANCIL

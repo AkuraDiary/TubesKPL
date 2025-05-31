@@ -1,14 +1,14 @@
-﻿using AKMJ_TubesKPL.Data.Models;
-using AKMJ_TubesKPL.Repo;
-using AKMJ_TubesKPL.Util;
+﻿using GuiModul.Data.Models;
+using GuiModul.Repo;
+using GuiModul.Util;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Auth.Login
+namespace GuiModul.Auth.Login
 {
     
-     class LoginModule{
+     public class LoginModule{
         public LoginModule(AuthRepository authRepository)
         {
             this.authRepository = authRepository;

@@ -1,16 +1,19 @@
-﻿using AKMJ_TubesKPL.Data.Models;
-using AKMJ_TubesKPL.Util;
+﻿
+using GuiModul.Data.Models;
+using GuiModul.Util;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL.Repo
+namespace GuiModul.Repo
 {
-    class AuthRepository
+    public class AuthRepository
     {
        public List<User> listRegisteredUser { get; set; }
         public User loggedInUser { get; set; }

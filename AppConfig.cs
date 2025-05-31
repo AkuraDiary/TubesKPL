@@ -1,15 +1,16 @@
-﻿using AKMJ_TubesKPL.Interface;
-using AKMJ_TubesKPL.Util;
+﻿
+using GuiModul.Util;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace AKMJ_TubesKPL
+namespace GuiModul
 {
-    public class AppConfig : IAppFileInteractor<AppConfig>
+    public class AppConfig : Interface.IAppFileInteractor<AppConfig>
     {
         public string UserAccountConfigPath { get; set; }
         public string StoragePath { get; set; }
