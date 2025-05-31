@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GuiModul.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace GuiModul
 {
     public partial class FormCrud: Form
     {
-        public FormCrud()
+        TodoItem item;
+        public FormCrud(TodoItem item)
         {
+            this.item = item; 
             InitializeComponent();
+
         }
 
         private void label1_Click(object sender, EventArgs e)

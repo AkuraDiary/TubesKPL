@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuView.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\MenuView.cs",
+              "RelativeDocumentMoniker": "MenuView.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\MenuView.cs",
+              "RelativeToolTip": "MenuView.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T08:14:35.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuView.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\MenuView.cs",
+              "RelativeDocumentMoniker": "MenuView.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\MenuView.cs [Design]",
+              "RelativeToolTip": "MenuView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:32:00.918Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DI.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\DI.cs",
+              "RelativeDocumentMoniker": "DI.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\DI.cs",
+              "RelativeToolTip": "DI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:30:53.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\TodoItem.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Data\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:29:29.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginView.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
+              "RelativeDocumentMoniker": "LoginView.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
+              "RelativeToolTip": "LoginView.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:30:00.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginView.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
+              "RelativeDocumentMoniker": "LoginView.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs [Design]",
+              "RelativeToolTip": "LoginView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:29:57.898Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormStatus.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormStatus.cs",
+              "RelativeDocumentMoniker": "FormStatus.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormStatus.cs [Design]",
+              "RelativeToolTip": "FormStatus.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:29:55.306Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\TodoService.cs",
+              "RelativeDocumentMoniker": "Domain\\Crud\\TodoService.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\TodoService.cs",
+              "RelativeToolTip": "Domain\\Crud\\TodoService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:29:25.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAdd.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormAdd.cs",
+              "RelativeDocumentMoniker": "FormAdd.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormAdd.cs*",
+              "RelativeToolTip": "FormAdd.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:22:58.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCrud.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
+              "RelativeDocumentMoniker": "FormCrud.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs [Design]",
+              "RelativeToolTip": "FormCrud.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:20:33.374Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormAdd.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormAdd.cs",
+              "RelativeDocumentMoniker": "FormAdd.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormAdd.cs [Design]*",
+              "RelativeToolTip": "FormAdd.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:20:14.421Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
