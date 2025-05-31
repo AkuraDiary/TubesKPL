@@ -8,18 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GuiModul
+namespace GuiModul.Auth.Register
 {
-    public partial class LoginView: Form
+    public partial class RegisterModul: Form
     {
-        public LoginView()
+        public RegisterModul()
         {
-          
             InitializeComponent();
-           
         }
 
-        private void lbLogin_Click(object sender, EventArgs e)
+        private void lbRegister_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbName_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -45,11 +53,6 @@ namespace GuiModul
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnRegister_Click(object sender, EventArgs e)
         {
 
         }

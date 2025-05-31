@@ -82,6 +82,12 @@
   <ItemGroup>
     <Compile Include="AppConfig.cs" />
     <Compile Include="Auth\Login\LoginModule.cs" />
+    <Compile Include="Auth\Register\RegisterModul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auth\Register\RegisterModul.Designer.cs">
+      <DependentUpon>RegisterModul.cs</DependentUpon>
+    </Compile>
     <Compile Include="Auth\Register\RegistrationModule.cs" />
     <Compile Include="Data\Models\TodoItem.cs" />
     <Compile Include="Data\Models\Todos.cs" />
@@ -104,6 +110,9 @@
     <Compile Include="Repo\TodoRepository.cs" />
     <Compile Include="Util\AppConstant.cs" />
     <Compile Include="Util\AuthUtilities.cs" />
+    <EmbeddedResource Include="Auth\Register\RegisterModul.resx">
+      <DependentUpon>RegisterModul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginView.resx">
       <DependentUpon>LoginView.cs</DependentUpon>
     </EmbeddedResource>

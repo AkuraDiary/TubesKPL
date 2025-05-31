@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\Documents\\github\\GuiModul\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -308,13 +308,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DI.cs",
               "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\DI.cs",
               "RelativeDocumentMoniker": "DI.cs",
               "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\DI.cs",
               "RelativeToolTip": "DI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:39:53.566Z",
               "EditorCaption": ""
@@ -334,13 +334,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginView.cs",
               "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs",
               "RelativeDocumentMoniker": "LoginView.cs",
               "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs",
               "RelativeToolTip": "LoginView.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAEwBIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:11:38.89Z",
               "EditorCaption": ""
@@ -359,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
