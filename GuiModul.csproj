@@ -82,6 +82,12 @@
   <ItemGroup>
     <Compile Include="AppConfig.cs" />
     <Compile Include="Auth\Login\LoginModule.cs" />
+    <Compile Include="Auth\Register\RegisterModul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auth\Register\RegisterModul.Designer.cs">
+      <DependentUpon>RegisterModul.cs</DependentUpon>
+    </Compile>
     <Compile Include="Auth\Register\RegistrationModule.cs" />
     <Compile Include="Data\Models\TodoItem.cs" />
     <Compile Include="Data\Models\Todos.cs" />
