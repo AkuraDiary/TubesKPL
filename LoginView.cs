@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace GuiModul
 {
@@ -14,14 +16,15 @@ namespace GuiModul
     {
         public LoginView()
         {
-          
-            InitializeComponent();
+          InitializeComponent();
+            
+            
            
         }
 
         private void lbLogin_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void lbUsername_Click(object sender, EventArgs e)
@@ -41,12 +44,23 @@ namespace GuiModul
 
         private void tbPassword_TextChanged(object sender, EventArgs e)
         {
+            tbPassword.PasswordChar = '*';
 
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            String username = tbUsername.Text;
+            String password = tbPassword.Text;
 
+            if(username == "admin" && password == "admin123")
+            {
+                MessageBox.Show("Login berhasil!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Username atau password salah!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void btnRegister_Click(object sender, EventArgs e)

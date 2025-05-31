@@ -73,6 +73,7 @@
             this.tbPassword.BackColor = System.Drawing.Color.WhiteSmoke;
             this.tbPassword.Location = new System.Drawing.Point(262, 185);
             this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(270, 26);
             this.tbPassword.TabIndex = 3;
             this.tbPassword.TextChanged += new System.EventHandler(this.tbPassword_TextChanged);
