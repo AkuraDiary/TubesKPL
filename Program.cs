@@ -21,24 +21,24 @@ namespace AKMJ_TubesKPL
             //{
 
 
-            //    if (DI.authRepo.loggedInUser != null)
-            //    {
-            //        DI.menuView.showDashboard();
-            //    }
-            //    else
-            //    {
-            //        DI.authView.ShowAuthMenu();
+            //   if (DI.authRepo.loggedInUser != null)
+            //   {
+            //      DI.menuView.showDashboard();
+            //   }
+            //   else
+            //   {
+            //      DI.authView.ShowAuthMenu();
 
-            //    }
+            //   }
 
             //}
 
-            // insert dummy User
-            User usr = new User();
+            //insert dummy User
+           User usr = new User();
             usr.Username = "pian";
-            usr.Password= LoginLibrary.EnkripsiPian.HashPassword("pian");
+            usr.Password = LoginLibrary.EnkripsiPian.HashPassword("pian");
 
-            DI.login.authRepository.listRegisteredUser.Add(usr);
+            DI.login.authRepository.listRegisteredUser.Add(usr); 
             
             Console.Write("Username: ");
             string username = Console.ReadLine();
