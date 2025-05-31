@@ -17,14 +17,33 @@ namespace AKMJ_TubesKPL.Data
         {
             try
             {
-                string jsonString = File.ReadAllText(filepath);
-                if (jsonString.Equals(""))
+                if (File.Exists(filepath))
                 {
-                    Console.WriteLine($"Todo masih kosong");
-                    return new Todos();
+                    string jsonString = File.ReadAllText(filepath);
+                    if (jsonString.Equals(""))
+                    {
+                        Console.WriteLine($"Todo masih kosong");
+                        return new Todos();
+                    }
+                    var todos = JsonSerializer.Deserialize<Todos>(jsonString);
+                    return todos;
+
                 }
-                var todos = JsonSerializer.Deserialize<Todos>(jsonString);
-                return todos;
+                else
+                {
+                    Console.WriteLine("File Not Found, Creating File " + filepath);
+                    // create new file
+
+                    string dirPath = filepath.Split("\\")[0];
+                    Directory.CreateDirectory(dirPath);
+                    File.Create(filepath).Dispose();
+                    Console.WriteLine("File Created In " + filepath);
+                    Todos todos = new Todos();
+                    //return todos;
+                    return ReadFile(filepath);
+
+                }
+
             }
             catch (Exception e)
             {
