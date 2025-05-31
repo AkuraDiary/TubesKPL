@@ -19,22 +19,32 @@ namespace GuiModul
             InitializeComponent();
             populatePenampungList();
         }
-
+        public static List<TodoItem> listTodo = new List<TodoItem>();
         public void populatePenampungList()
         {
-            List<TodoItem> listTodo =  new List<TodoItem>();
+            if(listTodo.Count == 0)
+            {
+                TodoItem item1 = new TodoItem();
+                item1.Title = "Biji";
+                item1.Description = "Description : dakon";
+                item1.TodoStatus = Status.Belum;
 
-            TodoItem item1 = new TodoItem();
-            item1.Title = "Biji";
-            item1.Description = "Description : dakon";
-          
 
-            TodoItem item2 = new TodoItem();
-            item2.Title = "Biji-biji";
-            item2.Description = "Description : Konz";
+                TodoItem item2 = new TodoItem();
+                item2.Title = "Biji-biji";
+                item2.Description = "Description : Konz";
+                item2.TodoStatus = Status.Selesai;
 
-            listTodo.Add(item1);
-            listTodo.Add(item2);
+                TodoItem item3 = new TodoItem();
+                item3.Title = "Biji-biji";
+                item3.Description = "Description : Konz";
+                item3.TodoStatus = Status.Tenggat;
+
+                listTodo.Add(item1);
+                listTodo.Add(item2);
+                listTodo.Add(item3);
+            }
+
 
             PenampungList.Controls.Clear();
             foreach (TodoItem item in listTodo)
@@ -58,7 +68,9 @@ namespace GuiModul
 
         private void btnTambah_Click(object sender, EventArgs e)
         {
-
+            FormAdd formAdd = new FormAdd();
+            this.Hide();
+            formAdd.Show();
         }
     }
 }

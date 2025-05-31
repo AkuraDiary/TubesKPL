@@ -32,7 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnViewDetail = new System.Windows.Forms.Button();
             this.deskripsi = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblStatus = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +42,7 @@
             this.lblTitle.Font = new System.Drawing.Font("Swis721 WGL4 BT", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(3, 12);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(195, 44);
+            this.lblTitle.Size = new System.Drawing.Size(200, 45);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Nama_Item";
             // 
@@ -51,7 +51,7 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.btnViewDetail);
             this.panel1.Controls.Add(this.deskripsi);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.lblStatus);
             this.panel1.Controls.Add(this.lblTitle);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -71,26 +71,27 @@
             this.btnViewDetail.TabIndex = 3;
             this.btnViewDetail.Text = "View Details";
             this.btnViewDetail.UseVisualStyleBackColor = false;
+            this.btnViewDetail.Click += new System.EventHandler(this.btnViewDetail_Click);
             // 
             // deskripsi
             // 
             this.deskripsi.AutoSize = true;
             this.deskripsi.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deskripsi.Location = new System.Drawing.Point(32, 105);
+            this.deskripsi.Location = new System.Drawing.Point(40, 85);
             this.deskripsi.Name = "deskripsi";
             this.deskripsi.Size = new System.Drawing.Size(163, 26);
             this.deskripsi.TabIndex = 2;
             this.deskripsi.Text = "Description : iop";
             // 
-            // label2
+            // lblStatus
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(32, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 26);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Status : poo";
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.Location = new System.Drawing.Point(327, 12);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(122, 26);
+            this.lblStatus.TabIndex = 1;
+            this.lblStatus.Text = "Status : poo";
             // 
             // TodoCardItem
             // 
@@ -109,7 +110,7 @@
 
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Button btnViewDetail;
         private System.Windows.Forms.Label deskripsi;
     }
