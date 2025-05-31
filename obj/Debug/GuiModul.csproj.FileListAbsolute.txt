@@ -31,3 +31,37 @@ C:\Users\asus\Documents\github\GuiModul\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\asus\Documents\github\GuiModul\bin\Debug\System.Text.Json.xml
 C:\Users\asus\Documents\github\GuiModul\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\asus\Documents\github\GuiModul\bin\Debug\System.ValueTuple.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\GuiModul.exe.config
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\GuiModul.exe
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\GuiModul.pdb
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\Newtonsoft.Json.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Buffers.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.IO.Pipelines.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Memory.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Numerics.Vectors.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Text.Encodings.Web.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Text.Json.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.ValueTuple.dll
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\Newtonsoft.Json.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Buffers.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.IO.Pipelines.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Memory.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Numerics.Vectors.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Text.Encodings.Web.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Text.Json.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\bin\Debug\System.ValueTuple.xml
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.csproj.AssemblyReference.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.FormCrud.resources
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.LoginView.resources
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.Properties.Resources.resources
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.csproj.GenerateResource.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.csproj.CoreCompileInputs.cache
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.csproj.Up2Date
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.exe
+D:\Semester 4 Firnanda\konturksi\TubesKPL\obj\Debug\GuiModul.pdb
