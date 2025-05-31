@@ -16,5 +16,15 @@ namespace GuiModul
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnsubmit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
