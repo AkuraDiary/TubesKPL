@@ -1,4 +1,5 @@
-﻿using GuiModul.Data.Models;
+﻿using GuiModul.Auth.Login;
+using GuiModul.Data.Models;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,10 +15,12 @@ namespace GuiModul
 {
     public partial class MenuView : Form
     {
+        LoginModule login = DI.login;
         public MenuView()
         {
             InitializeComponent();
             populatePenampungList();
+            label1.Text = login.authRepository.loggedInUser.Nama;
         }
         public static List<TodoItem> listTodo = new List<TodoItem>();
         public void populatePenampungList()

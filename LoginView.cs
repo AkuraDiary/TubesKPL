@@ -68,6 +68,9 @@ namespace GuiModul
                 // pindah ke halaman utama
 
                 MessageBox.Show("Login Berhasil!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Hide();
+                MenuView menuUtama = new MenuView();
+                menuUtama.Show();
             }
 
             else
