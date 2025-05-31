@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\",
   "Documents": [
     {
@@ -100,13 +101,207 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\",
+  "Documents": [
+    {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\semester 4 firnanda\\konturksi\\tubeskpl\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\login\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\loginview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|c:\\users\\asus\\documents\\github\\guimodul\\auth\\register\\registermodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\register\\registermodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\auth\\register\\registermodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\register\\registermodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\auth\\register\\registermodul.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\register\\registermodul.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\tododatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\iappfileinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:interface\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\register\\RegistrationModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+=======
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+=======
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|C:\\Users\\asus\\Documents\\github\\GuiModul\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -117,7 +312,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 9,
+=======
+<<<<<<< HEAD
+          "SelectedChildIndex": 1,
+=======
+          "SelectedChildIndex": 23,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
           "Children": [
             {
               "$type": "Document",
@@ -159,6 +362,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 4,
               "Title": "MenuView.Designer.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.Designer.cs",
@@ -180,10 +384,34 @@
               "RelativeToolTip": "MenuView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T05:42:51.514Z",
+=======
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+              "Title": "FormStatus.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormStatus.cs",
+              "RelativeDocumentMoniker": "FormStatus.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormStatus.cs [Design]",
+              "RelativeToolTip": "FormStatus.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:36:46.216Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAdd.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormAdd.cs",
+              "RelativeDocumentMoniker": "FormAdd.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormAdd.cs [Design]",
+              "RelativeToolTip": "FormAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:19:52.272Z",
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "TodoCardItem.cs [Design]",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\TodoCardItem.cs",
@@ -218,10 +446,45 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:46:42.639Z",
+=======
+              "DocumentIndex": 10,
+              "Title": "FormCrud.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
+              "RelativeDocumentMoniker": "FormCrud.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
+              "RelativeToolTip": "FormCrud.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:24:12.958Z",
+=======
+              "DocumentIndex": 7,
+              "Title": "RegisterModul.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegisterModul.Designer.cs",
+              "RelativeDocumentMoniker": "Auth\\Register\\RegisterModul.Designer.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegisterModul.Designer.cs",
+              "RelativeToolTip": "Auth\\Register\\RegisterModul.Designer.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAASwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:37:59.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterModul.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegisterModul.cs",
+              "RelativeDocumentMoniker": "Auth\\Register\\RegisterModul.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegisterModul.cs",
+              "RelativeToolTip": "Auth\\Register\\RegisterModul.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:32:42.634Z",
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "LoginView.cs [Design]",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginView.cs",
@@ -230,10 +493,22 @@
               "RelativeToolTip": "LoginView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:11:22.749Z",
+=======
+<<<<<<< HEAD
+              "DocumentIndex": 2,
+              "Title": "FormCrud.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs",
+              "RelativeDocumentMoniker": "FormCrud.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\FormCrud.cs [Design]",
+              "RelativeToolTip": "FormCrud.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:18:17.213Z",
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "TodoCardItem.Designer.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\TodoCardItem.Designer.cs",
@@ -243,10 +518,35 @@
               "ViewState": "AgIAADIAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T06:02:17.93Z",
+=======
+              "DocumentIndex": 19,
+=======
+              "DocumentIndex": 6,
+              "Title": "RegisterModul.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegisterModul.cs",
+              "RelativeDocumentMoniker": "Auth\\Register\\RegisterModul.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\RegisterModul.cs [Design]",
+              "RelativeToolTip": "Auth\\Register\\RegisterModul.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:32:03.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginView.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.Designer.cs",
+              "RelativeDocumentMoniker": "LoginView.Designer.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.Designer.cs",
+              "RelativeToolTip": "LoginView.Designer.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAASwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:20:14.836Z",
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "TodoCardItem.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\TodoCardItem.cs",
@@ -292,20 +592,155 @@
               "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Domain\\Crud\\TodoService.cs",
               "RelativeToolTip": "Domain\\Crud\\TodoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 18,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "AppConstant.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AppConstant.cs",
+              "RelativeDocumentMoniker": "Util\\AppConstant.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AppConstant.cs",
+              "RelativeToolTip": "Util\\AppConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:50:21.301Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 15,
+=======
+              "DocumentIndex": 16,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "AuthUtilities.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AuthUtilities.cs",
+              "RelativeDocumentMoniker": "Util\\AuthUtilities.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Util\\AuthUtilities.cs",
+              "RelativeToolTip": "Util\\AuthUtilities.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:50:12.732Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 7,
+=======
+              "DocumentIndex": 19,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IRepository.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IRepository.cs",
+              "RelativeToolTip": "Interface\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:48:58.183Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 8,
+=======
+              "DocumentIndex": 20,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IEntity.cs",
+              "RelativeDocumentMoniker": "Interface\\IEntity.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IEntity.cs",
+              "RelativeToolTip": "Interface\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:48:51.485Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 9,
+=======
+              "DocumentIndex": 14,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "IAppFileInteractor.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IAppFileInteractor.cs",
+              "RelativeDocumentMoniker": "Interface\\IAppFileInteractor.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Interface\\IAppFileInteractor.cs",
+              "RelativeToolTip": "Interface\\IAppFileInteractor.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:48:38.593Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 4,
+=======
+              "DocumentIndex": 13,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\TodoService.cs",
+              "RelativeDocumentMoniker": "Domain\\Crud\\TodoService.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Domain\\Crud\\TodoService.cs",
+              "RelativeToolTip": "Domain\\Crud\\TodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:48:19.663Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 24,
               "Title": "Todos.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Data\\Models\\Todos.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Todos.cs",
               "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Data\\Models\\Todos.cs",
+=======
+<<<<<<< HEAD
+              "DocumentIndex": 5,
+=======
+              "DocumentIndex": 12,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "TodoRepository.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Repo\\TodoRepository.cs",
+              "RelativeDocumentMoniker": "Repo\\TodoRepository.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Repo\\TodoRepository.cs",
+              "RelativeToolTip": "Repo\\TodoRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwCoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:47:36.545Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 20,
+=======
+              "DocumentIndex": 21,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\User.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\User.cs",
+              "RelativeToolTip": "Data\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:46:54.914Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 21,
+=======
+              "DocumentIndex": 22,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "Todos.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\Todos.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Todos.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\Todos.cs",
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
               "RelativeToolTip": "Data\\Models\\Todos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T04:46:48.642Z"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -338,14 +773,142 @@
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\DI.cs",
               "RelativeDocumentMoniker": "DI.cs",
               "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\DI.cs",
-              "RelativeToolTip": "DI.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+=======
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 3,
+=======
+              "DocumentIndex": 2,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\TodoItem.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Data\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:39:53.566Z",
+              "WhenOpened": "2025-05-31T04:46:42.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 14,
+=======
+              "DocumentIndex": 11,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "TodoDataSource.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\TodoDataSource.cs",
+              "RelativeDocumentMoniker": "Data\\TodoDataSource.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Data\\TodoDataSource.cs",
+              "RelativeToolTip": "Data\\TodoDataSource.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:46:10.611Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 6,
+=======
+              "DocumentIndex": 15,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Repo\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Repo\\AuthRepository.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Repo\\AuthRepository.cs",
+              "RelativeToolTip": "Repo\\AuthRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:45:36.809Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 18,
+=======
+              "DocumentIndex": 17,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\AppConfig.cs",
+              "RelativeDocumentMoniker": "AppConfig.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\AppConfig.cs",
+              "RelativeToolTip": "AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:44:34.646Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 16,
+=======
+              "DocumentIndex": 8,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "RegistrationModule.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Auth\\Register\\RegistrationModule.cs",
+              "RelativeDocumentMoniker": "Auth\\Register\\RegistrationModule.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Auth\\Register\\RegistrationModule.cs",
+              "RelativeToolTip": "Auth\\Register\\RegistrationModule.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:44:24.445Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 22,
+=======
+              "DocumentIndex": 23,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "RegistrationModule.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\register\\RegistrationModule.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\Auth\\Register\\register\\RegistrationModule.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:42:47.698Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 17,
+=======
+              "DocumentIndex": 3,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "LoginModule.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Auth\\Login\\LoginModule.cs",
+              "RelativeDocumentMoniker": "Auth\\Login\\LoginModule.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Auth\\Login\\LoginModule.cs",
+              "RelativeToolTip": "Auth\\Login\\LoginModule.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxkAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:42:19.949Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 11,
+=======
+              "DocumentIndex": 10,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "DI.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\DI.cs",
+              "RelativeDocumentMoniker": "DI.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\DI.cs",
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
+              "RelativeToolTip": "DI.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBoAAAAhAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwBoAAAAhAAAAAAAAAA==",
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:39:53.566Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 15,
               "Title": "IAppFileInteractor.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Interface\\IAppFileInteractor.cs",
@@ -456,24 +1019,76 @@
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\App.config",
               "RelativeDocumentMoniker": "App.config",
               "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\App.config",
+=======
+              "DocumentIndex": 24,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\App.config",
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-31T04:26:03.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T04:26:03.705Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 11,
               "Title": "LoginView.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginView.cs",
               "RelativeDocumentMoniker": "LoginView.cs",
               "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginView.cs",
+=======
+<<<<<<< HEAD
+              "DocumentIndex": 12,
+=======
+              "DocumentIndex": 0,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "LoginView.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
+              "RelativeDocumentMoniker": "LoginView.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
               "RelativeToolTip": "LoginView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-05-31T04:11:38.89Z",
               "EditorCaption": ""
+=======
+              "WhenOpened": "2025-05-31T04:11:38.89Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 23,
+=======
+              "DocumentIndex": 1,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "LoginView.cs [Design]",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\LoginView.cs",
+              "RelativeDocumentMoniker": "LoginView.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\github\\GuiModul\\LoginView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:11:22.749Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 13,
+=======
+              "DocumentIndex": 9,
+>>>>>>> 499548cff076d6608bb52f0a243d5d7d57a1e869
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:10:31.326Z"
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
             }
           ]
         }

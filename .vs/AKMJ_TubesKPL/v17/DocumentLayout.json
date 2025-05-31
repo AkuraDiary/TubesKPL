@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\",
   "Documents": [
     {
@@ -140,6 +141,15 @@
           ]
         }
       ]
+=======
+  "WorkspaceRootPath": "D:\\Semester 4 Firnanda\\konturksi\\TubesKPL\\",
+  "Documents": [],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": []
+>>>>>>> 4c5a2d09eb8cdabe8bdd1380bf0923219761befc
     }
   ]
 }

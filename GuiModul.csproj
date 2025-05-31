@@ -82,6 +82,12 @@
   <ItemGroup>
     <Compile Include="AppConfig.cs" />
     <Compile Include="Auth\Login\LoginModule.cs" />
+    <Compile Include="Auth\Register\RegisterModul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auth\Register\RegisterModul.Designer.cs">
+      <DependentUpon>RegisterModul.cs</DependentUpon>
+    </Compile>
     <Compile Include="Auth\Register\RegistrationModule.cs" />
     <Compile Include="Data\Models\TodoItem.cs" />
     <Compile Include="Data\Models\Todos.cs" />
@@ -89,6 +95,24 @@
     <Compile Include="Data\TodoDataSource.cs" />
     <Compile Include="DI.cs" />
     <Compile Include="Domain\Crud\TodoService.cs" />
+    <Compile Include="FormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdd.Designer.cs">
+      <DependentUpon>FormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCrud.Designer.cs">
+      <DependentUpon>FormCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStatus.Designer.cs">
+      <DependentUpon>FormStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\IAppFileInteractor.cs" />
     <Compile Include="Interface\IEntity.cs" />
     <Compile Include="Interface\IRepository.cs" />
@@ -116,6 +140,12 @@
     </Compile>
     <Compile Include="Util\AppConstant.cs" />
     <Compile Include="Util\AuthUtilities.cs" />
+    <EmbeddedResource Include="FormAdd.resx">
+      <DependentUpon>FormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCrud.resx">
+      <DependentUpon>FormCrud.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginView.resx">
       <DependentUpon>LoginView.cs</DependentUpon>
     </EmbeddedResource>
