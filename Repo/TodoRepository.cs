@@ -14,7 +14,7 @@ namespace GuiModul.Repo
     // NANCIL
     public class TodoRepository : IRepository<TodoItem>
     {
-        private List<TodoItem> todos = new List<TodoItem>();
+        public List<TodoItem> todos = new List<TodoItem>();
         public string activeTodosPath { get; set; } = ""; // storage/username_todolist.json
 
         private int nextId = 1;
