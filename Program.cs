@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GuiModul.Auth.Register;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,6 +19,8 @@ namespace GuiModul
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoginView());
+            Application.Run(new RegisterModul());
+            
         }
     }
 }

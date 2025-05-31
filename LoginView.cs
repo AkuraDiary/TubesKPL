@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,19 +10,27 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using GuiModul.Auth.Register;
+using GuiModul.Auth.Login;
+using static GuiModul.LoginView;
+using GuiModul.Data.Models;
+
 
 namespace GuiModul
 {
     public partial class LoginView: Form
     {
+        LoginModule loginModule = DI.login;
         public LoginView()
         {
           InitializeComponent();
+         
             
             
            
         }
 
+        
         private void lbLogin_Click(object sender, EventArgs e)
         {
             
@@ -52,11 +61,15 @@ namespace GuiModul
         {
             String username = tbUsername.Text;
             String password = tbPassword.Text;
-
-            if(username == "admin" && password == "admin123")
+         
+            if (loginModule.Authenticate(username, password, out User user))
             {
-                MessageBox.Show("Login berhasil!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                loginModule.saveSession(user);
+                // pindah ke halaman utama
+
+                MessageBox.Show("Login Berhasil!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
             else
             {
                 MessageBox.Show("Username atau password salah!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -65,7 +78,10 @@ namespace GuiModul
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); 
+            RegisterModul registerForm = new RegisterModul();
+            registerForm.FormClosed += (s, args) => this.Close(); 
+            registerForm.Show();
         }
     }
 }
