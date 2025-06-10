@@ -17,16 +17,20 @@ namespace GuiModul
         public FormAdd(TodoItem item = null)
         {
             InitializeComponent();
+
+            cbstatus.SelectedItem = Status.Belum.ToString();
             if (item != null)
             {
                 this.selectedItem = item;
                 tbtitle.Text = item.Title;
                 tbDescription.Text = item.Description;
                 deadline.Value = item.Deadline;
-                cbstatus.SelectedItem = item.Status;
+                cbstatus.SelectedItem = item.Status.ToString();
 
                 label1.Text = "Update TODO";
             }
+         
+
 
         }
 
@@ -39,6 +43,13 @@ namespace GuiModul
             //cbstatus.DataSource = Enum.GetValues(typeof(Status));
 
             Status selectedStatus;  
+            
+            if(cbstatus.SelectedItem == null)
+            {
+                MessageBox.Show("Pilih status yang baru !", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
             Enum.TryParse(cbstatus.SelectedItem.ToString(), out selectedStatus);
 
             TodoItem item = new TodoItem();

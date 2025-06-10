@@ -63,7 +63,7 @@ namespace GuiModul
             PenampungList.Controls.Clear();
             foreach (TodoItem item in todos)
             {
-                PenampungList.Controls.Add(new TodoCardItem(item));
+                PenampungList.Controls.Add(new TodoCardItem(item, this));
                 
             }
         }
