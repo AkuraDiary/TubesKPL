@@ -6,9 +6,9 @@ namespace GuiModul.Data.Models
 
     public enum Status
     {
-        Selesai,
         Belum,
-        Tenggat
+        Tenggat,
+        Selesai
     }
 
     // NANCIL
@@ -19,7 +19,7 @@ namespace GuiModul.Data.Models
         public string Description { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public bool IsSelesai { get; set; }
-        public Status TodoStatus { get; set; } = Status.Belum;
+        public Status Status { get; set; } = Status.Belum;
 
         public DateTime Deadline { get; set; } //Deadline
 

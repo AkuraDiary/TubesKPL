@@ -31,6 +31,8 @@ namespace GuiModul.Repo
         {
             this.loggedInUser = loginUser;
             this.activeDirectory =  appConfig.StoragePath + loginUser.Username + "_" + AppConstant.userTodoListSuffix;
+            DI.todoRepo.activeTodosPath = activeDirectory;
+            //Console.WriteLine(this.activeDirectory);
         }
 
         // HAKIM - menyimpan register user ke dalam file external (runtime config)

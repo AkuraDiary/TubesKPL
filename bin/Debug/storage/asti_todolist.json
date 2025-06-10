@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "Id": 0,
+      "Title": null,
+      "Description": null,
+      "CreatedDate": "2025-05-31T16:24:07.3797616+07:00",
+      "IsSelesai": false,
+      "Status": 1,
+      "Deadline": "2025-06-07T16:23:31"
+    },
+    {
+      "Id": 1,
+      "Title": "Update",
+      "Description": "Update",
+      "CreatedDate": "2025-05-31T16:32:29.8938105+07:00",
+      "IsSelesai": false,
+      "Status": 1,
+      "Deadline": "2025-05-31T16:32:17"
+    }
+  ]
+}
