@@ -83,10 +83,10 @@ namespace GuiModul.Repo
             return dataSource.returnCode == 1;
         }
 
-        internal void Delete(TodoItem item)
-        {
-            throw new NotImplementedException();
-        }
+        //internal void Delete(TodoItem item)
+        //{
+        //   dataSource.de
+        //}
     }
 
 }

@@ -63,8 +63,8 @@ namespace GuiModul
         private void btnback_Click(object sender, EventArgs e)
         {
             this.Hide();
-            //MenuView menuView = new MenuView();
-            //menuView.Show();
+            MenuView menuView = new MenuView();
+            menuView.Show();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -76,13 +76,13 @@ namespace GuiModul
         {
           
 
-            MessageBox.Show("Berhasil diupdate!");
-            this.Hide();
+            //MessageBox.Show("Berhasil diupdate!");
+            //this.Hide();
            
             FormAdd formAdd = new FormAdd(item);
             formAdd.Show();
 
-            this.Close(); 
+            this.Hide(); 
         }
 
         private void btcs_Click(object sender, EventArgs e)
@@ -102,9 +102,12 @@ namespace GuiModul
             if (confirm == DialogResult.Yes)
             {
                 var repo = DI.todoRepo;
-                repo.Delete(item);
+                repo.Delete(item.Id);
                 MessageBox.Show("Item dihapus");
-                this.Close();
+
+                this.Hide();
+                MenuView menuView = new MenuView();
+                menuView.Show();
             }
         }
     }
