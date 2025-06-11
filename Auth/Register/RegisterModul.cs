@@ -24,36 +24,6 @@ namespace GuiModul.Auth.Register
             tbPassword.PasswordChar = '*';
         }
 
-        private void lbRegister_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbName_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbUsername_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbUsername_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbPassword_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void tbPassword_TextChanged(object sender, EventArgs e)
         {
             tbPassword.PasswordChar = '*';

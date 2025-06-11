@@ -47,7 +47,6 @@
             this.lbRegister.Size = new System.Drawing.Size(69, 20);
             this.lbRegister.TabIndex = 0;
             this.lbRegister.Text = "Register";
-            this.lbRegister.Click += new System.EventHandler(this.lbRegister_Click);
             // 
             // lbName
             // 
@@ -57,7 +56,6 @@
             this.lbName.Size = new System.Drawing.Size(51, 20);
             this.lbName.TabIndex = 1;
             this.lbName.Text = "Name";
-            this.lbName.Click += new System.EventHandler(this.lbName_Click);
             // 
             // lbUsername
             // 
@@ -67,7 +65,6 @@
             this.lbUsername.Size = new System.Drawing.Size(83, 20);
             this.lbUsername.TabIndex = 2;
             this.lbUsername.Text = "Username";
-            this.lbUsername.Click += new System.EventHandler(this.lbUsername_Click);
             // 
             // lbPassword
             // 
@@ -77,7 +74,6 @@
             this.lbPassword.Size = new System.Drawing.Size(78, 20);
             this.lbPassword.TabIndex = 3;
             this.lbPassword.Text = "Password";
-            this.lbPassword.Click += new System.EventHandler(this.lbPassword_Click);
             // 
             // tbName
             // 
@@ -86,7 +82,6 @@
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(228, 26);
             this.tbName.TabIndex = 4;
-            this.tbName.TextChanged += new System.EventHandler(this.tbName_TextChanged);
             // 
             // tbUsername
             // 
@@ -95,7 +90,6 @@
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(228, 26);
             this.tbUsername.TabIndex = 5;
-            this.tbUsername.TextChanged += new System.EventHandler(this.tbUsername_TextChanged);
             // 
             // tbPassword
             // 
