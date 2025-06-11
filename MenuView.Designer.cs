@@ -42,9 +42,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Location = new System.Drawing.Point(1, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1366, 126);
+            this.panel1.Size = new System.Drawing.Size(1372, 126);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -63,7 +63,7 @@
             this.btnLogout.BackColor = System.Drawing.Color.Red;
             this.btnLogout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnLogout.Location = new System.Drawing.Point(1208, 32);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(132, 53);
             this.btnLogout.TabIndex = 0;
@@ -75,7 +75,7 @@
             // 
             this.PenampungList.AutoScroll = true;
             this.PenampungList.Location = new System.Drawing.Point(69, 150);
-            this.PenampungList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PenampungList.Margin = new System.Windows.Forms.Padding(2);
             this.PenampungList.Name = "PenampungList";
             this.PenampungList.Size = new System.Drawing.Size(1217, 522);
             this.PenampungList.TabIndex = 1;
@@ -84,7 +84,7 @@
             // 
             this.btnTambah.BackColor = System.Drawing.Color.SkyBlue;
             this.btnTambah.Location = new System.Drawing.Point(1153, 686);
-            this.btnTambah.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTambah.Margin = new System.Windows.Forms.Padding(2);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(144, 50);
             this.btnTambah.TabIndex = 0;
@@ -101,7 +101,7 @@
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.PenampungList);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MenuView";
             this.Text = "MenuView";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

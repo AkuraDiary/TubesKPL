@@ -15,9 +15,10 @@ namespace GuiModul
         [STAThread]
         static void Main()
         {
-            DI.init();
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            DI.init();
             Application.Run(DI.navigator.InitialRoute());
 
         }

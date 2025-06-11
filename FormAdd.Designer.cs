@@ -133,7 +133,6 @@
             this.cbstatus.Size = new System.Drawing.Size(282, 21);
             this.cbstatus.TabIndex = 10;
             this.cbstatus.Text = "Pilih Status";
-            this.cbstatus.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // FormAdd
             // 

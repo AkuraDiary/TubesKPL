@@ -46,7 +46,6 @@
             this.lbLogin.Size = new System.Drawing.Size(48, 20);
             this.lbLogin.TabIndex = 0;
             this.lbLogin.Text = "Login";
-            this.lbLogin.Click += new System.EventHandler(this.lbLogin_Click);
             // 
             // lbUsername
             // 
@@ -57,7 +56,6 @@
             this.lbUsername.Size = new System.Drawing.Size(83, 20);
             this.lbUsername.TabIndex = 1;
             this.lbUsername.Text = "Username";
-            this.lbUsername.Click += new System.EventHandler(this.lbUsername_Click);
             // 
             // tbUsername
             // 
@@ -66,7 +64,6 @@
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(270, 26);
             this.tbUsername.TabIndex = 2;
-            this.tbUsername.TextChanged += new System.EventHandler(this.tbUsername_TextChanged);
             // 
             // tbPassword
             // 

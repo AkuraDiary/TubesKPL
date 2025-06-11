@@ -145,6 +145,9 @@
     </Compile>
     <Compile Include="Util\AppConstant.cs" />
     <Compile Include="Util\AuthUtilities.cs" />
+    <EmbeddedResource Include="Auth\Register\RegisterModul.resx">
+      <DependentUpon>RegisterModul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAdd.resx">
       <DependentUpon>FormAdd.cs</DependentUpon>
     </EmbeddedResource>

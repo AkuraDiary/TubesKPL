@@ -37,8 +37,11 @@ namespace GuiModul
             evaluateRoute();
         }
 
-        public void NavigateToUpdate()
+        public void NavigateToUpdate(TodoItem item)
         {
+            this.activeRoute = Routes.UPDATE;
+            this.itemParam = item;
+            evaluateRoute();
 
         }
 
@@ -65,8 +68,9 @@ namespace GuiModul
                     {
                         break;
                     }
-                    DI.formCrud.SetTodo(itemParam);
                     DI.formCrud.Show();
+                    DI.formCrud.SetTodo(itemParam);
+                   
                     break;
                 case Routes.ADD:
                     DI.formAdd.Show();
@@ -77,6 +81,7 @@ namespace GuiModul
                     {
                         break;
                     }
+                    DI.formAdd.Show();
                     DI.formAdd.SetTodo(itemParam);
                     break;
 

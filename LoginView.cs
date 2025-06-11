@@ -29,26 +29,6 @@ namespace GuiModul
        
         }
 
-        
-        private void lbLogin_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void lbUsername_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbUsername_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbPassword_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void tbPassword_TextChanged(object sender, EventArgs e)
         {
@@ -67,7 +47,7 @@ namespace GuiModul
                 // pindah ke halaman utama
 
                 MessageBox.Show("Login Berhasil!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                this.Hide();
                 navigator.NavigateTo(Routes.MAIN);
                 
             }
@@ -82,9 +62,6 @@ namespace GuiModul
         {
             this.Hide();
             navigator.NavigateTo(Routes.MAIN);
-            //RegisterModul registerForm = new RegisterModul();
-            //registerForm.FormClosed += (s, args) => this.Close(); 
-            //registerForm.Show();
         }
     }
 }

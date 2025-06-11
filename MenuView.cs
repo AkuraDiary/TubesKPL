@@ -33,7 +33,11 @@ namespace GuiModul
 
         public void Reload()
         {
-            label1.Text = login.authRepository.loggedInUser.Nama;
+            if (login.authRepository.loggedInUser != null)
+            {
+                label1.Text = login.authRepository.loggedInUser.Nama;
+            }
+          
             populatePenampungList();
         }
         
@@ -46,7 +50,7 @@ namespace GuiModul
             PenampungList.Controls.Clear();
             foreach (TodoItem item in todos)
             {
-                PenampungList.Controls.Add(new TodoCardItem(item, this));
+                PenampungList.Controls.Add(new TodoCardItem(item));
                 
             }
         }
