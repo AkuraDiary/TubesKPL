@@ -14,11 +14,17 @@ namespace GuiModul
     public partial class FormCrud: Form
     {
         TodoItem item;
-        
-        public FormCrud(TodoItem item)
+        Navigator navigator;
+
+        public FormCrud(Navigator navigator)
+        {
+            this.navigator = navigator;
+            InitializeComponent();
+        }
+
+        public void SetTodo(TodoItem item)
         {
            this.item = item;
-            InitializeComponent();
 
             lb1.Text = item.Title;
             label5.Text = item.Description;
@@ -42,6 +48,8 @@ namespace GuiModul
                 label7.ForeColor = Color.White;
             }
         }
+
+
 
         
 

@@ -9,9 +9,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace GuiModul
 {
+    // Dependency and Mediator Design Pattern
    public class DI
     {
         public static AppConfig appConfig;
@@ -20,31 +22,38 @@ namespace GuiModul
         public static Repo.TodoRepository todoRepo;
         public static RegistrationModule regis;
         public static LoginModule login;
-        //public static AuthView authView;
-        //public static MenuView menuView;
 
-        public static String bebek = "Bebek";
+        public static Navigator navigator;
+
+        public static LoginView loginView;
+        public static RegisterModul registerView;
+        public static MenuView menuView;
+        public static FormAdd formAdd;
+        public static FormCrud formCrud;
         public static void init()
         {
 
             Console.WriteLine("Initializing");
-            bebek = "Ayam";
-            appConfig = new AppConfig();
+            appConfig = AppConfig.getInstance();
             appConfig.InitConfig(AppConstant.defaultAppConfigPath);
             appConfig.LoadAppConfig(AppConstant.defaultAppConfigPath);
 
-             todoDatasource = new TodoDataSource();
+            todoDatasource = TodoDataSource.getInstance();
+            authRepo = AuthRepository.getInstance(appConfig);
+            todoRepo = TodoRepository.getInstance(todoDatasource);
 
-             authRepo = new AuthRepository(appConfig);
-             todoRepo = new TodoRepository(todoDatasource);
+            regis = new RegistrationModule(authRepo);
+            login = new LoginModule(authRepo);
 
-             regis = new RegistrationModule(authRepo);
-             login = new LoginModule(authRepo);
+            navigator = Navigator.getInstance();
 
-            //menuView = new MenuView(todoRepo, authRepo);
-            //authView = new AuthView(login, regis);
+            loginView = new LoginView(navigator);
+            registerView = new RegisterModul(navigator, regis);
+            menuView =new MenuView(login, todoRepo, navigator);
+            formAdd = new FormAdd(navigator);
+            formCrud = new FormCrud(navigator);
 
-            Console.WriteLine("Initializing");
+            Console.WriteLine("Initialized");
 
         }
     }

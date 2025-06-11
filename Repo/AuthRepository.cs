@@ -85,5 +85,17 @@ namespace GuiModul.Repo
                 listRegisteredUser = new List<User>();
             }
         }
+
+        private static AuthRepository instance;
+
+        public static AuthRepository getInstance(AppConfig config)
+        {
+            if (instance == null)
+            {
+                instance = new AuthRepository(config);
+            }
+
+            return instance;
+        }
     }
 }

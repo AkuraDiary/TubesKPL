@@ -21,13 +21,12 @@ namespace GuiModul
     public partial class LoginView: Form
     {
         LoginModule loginModule = DI.login;
-        public LoginView()
+        Navigator navigator;
+        public LoginView(Navigator navigator)
         {
-          InitializeComponent();
-         
-            
-            
-           
+            this.navigator = navigator;
+          InitializeComponent();     
+       
         }
 
         
@@ -68,9 +67,9 @@ namespace GuiModul
                 // pindah ke halaman utama
 
                 MessageBox.Show("Login Berhasil!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Hide();
-                MenuView menuUtama = new MenuView();
-                menuUtama.Show();
+
+                navigator.NavigateTo(Routes.MAIN);
+                
             }
 
             else
@@ -81,10 +80,11 @@ namespace GuiModul
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            this.Hide(); 
-            RegisterModul registerForm = new RegisterModul();
-            registerForm.FormClosed += (s, args) => this.Close(); 
-            registerForm.Show();
+            this.Hide();
+            navigator.NavigateTo(Routes.MAIN);
+            //RegisterModul registerForm = new RegisterModul();
+            //registerForm.FormClosed += (s, args) => this.Close(); 
+            //registerForm.Show();
         }
     }
 }

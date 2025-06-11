@@ -83,10 +83,18 @@ namespace GuiModul.Repo
             return dataSource.returnCode == 1;
         }
 
-        //internal void Delete(TodoItem item)
-        //{
-        //   dataSource.de
-        //}
+
+        // Singleton
+        private static TodoRepository instance;
+
+        public static TodoRepository getInstance(TodoDataSource datasource)
+        {
+            if(instance == null)
+            {
+                instance = new TodoRepository(datasource);
+            }
+            return instance;
+        }
     }
 
 }

@@ -23,7 +23,7 @@ namespace GuiModul.Auth.Login
             public bool Authenticate(string username, string password, out User loginUser)
             {
             authRepository.LoadUsers();
-                loginUser = authRepository.listRegisteredUser.FirstOrDefault(u => u.Username.Equals(username) && u.Password.Equals(AuthUtilities.HashPassword(password)));
+                loginUser = authRepository.listRegisteredUser.FirstOrDefault(u => u.Username.Equals(username) && u.Password.Equals(LoginLibrary.EnkripsiPian.HashPassword(password)));
         
             return loginUser != null;
             }
