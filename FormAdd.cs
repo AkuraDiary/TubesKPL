@@ -98,16 +98,6 @@ namespace GuiModul
            
         }
 
-        private void tbtitle_TextChanged(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
 
     }
 }

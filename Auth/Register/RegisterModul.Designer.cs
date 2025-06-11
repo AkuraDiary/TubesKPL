@@ -119,7 +119,7 @@
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 38);
             this.btnBack.TabIndex = 8;
-            this.btnBack.Text = "Back";
+            this.btnBack.Text = "Login";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 

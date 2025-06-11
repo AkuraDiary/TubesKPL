@@ -66,7 +66,6 @@
             this.tbtitle.Name = "tbtitle";
             this.tbtitle.Size = new System.Drawing.Size(282, 20);
             this.tbtitle.TabIndex = 2;
-            this.tbtitle.TextChanged += new System.EventHandler(this.tbtitle_TextChanged);
             // 
             // tbDescription
             // 
