@@ -84,7 +84,7 @@
             this.lbPassword.Size = new System.Drawing.Size(78, 20);
             this.lbPassword.TabIndex = 4;
             this.lbPassword.Text = "Password";
-            this.lbPassword.Click += new System.EventHandler(this.lbPassword_Click);
+            
             // 
             // btnSubmit
             // 
