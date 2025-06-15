@@ -14,11 +14,17 @@ namespace GuiModul
     public partial class FormCrud: Form
     {
         TodoItem item;
-        
-        public FormCrud(TodoItem item)
+        Navigator navigator;
+
+        public FormCrud(Navigator navigator)
+        {
+            this.navigator = navigator;
+            InitializeComponent();
+        }
+
+        public void SetTodo(TodoItem item)
         {
            this.item = item;
-            InitializeComponent();
 
             lb1.Text = item.Title;
             label5.Text = item.Description;
@@ -43,6 +49,8 @@ namespace GuiModul
             }
         }
 
+
+
         
 
         private void label1_Click(object sender, EventArgs e)
@@ -63,8 +71,8 @@ namespace GuiModul
         private void btnback_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MenuView menuView = new MenuView();
-            menuView.Show();
+            navigator.NavigateTo(Routes.MAIN);
+            
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -74,15 +82,9 @@ namespace GuiModul
 
         private void kuning_Click(object sender, EventArgs e)
         {
-          
-
-            //MessageBox.Show("Berhasil diupdate!");
-            //this.Hide();
-           
-            FormAdd formAdd = new FormAdd(item);
-            formAdd.Show();
-
-            this.Hide(); 
+            this.Hide();
+            navigator.NavigateToUpdate(item);
+            
         }
 
         private void btcs_Click(object sender, EventArgs e)
@@ -91,9 +93,8 @@ namespace GuiModul
             DI.todoRepo.Update(item);
 
             MessageBox.Show("Status berhasil diubah menjadi: " + item.Status.ToString());
-
-        
-            this.Close();
+            this.Hide();
+            navigator.NavigateTo(Routes.MAIN);
         }
 
         private void btdelete_Click(object sender, EventArgs e)
@@ -106,8 +107,7 @@ namespace GuiModul
                 MessageBox.Show("Item dihapus");
 
                 this.Hide();
-                MenuView menuView = new MenuView();
-                menuView.Show();
+                navigator.NavigateTo(Routes.MAIN);
             }
         }
     }

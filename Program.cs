@@ -15,13 +15,12 @@ namespace GuiModul
         [STAThread]
         static void Main()
         {
-            DI.init();
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginView());
-            // Application.Run(new RegisterModul());
-            
-            // Application.Run(new MenuView());
+            DI.init();
+            Application.Run(DI.navigator.InitialRoute());
+
         }
     }
 }

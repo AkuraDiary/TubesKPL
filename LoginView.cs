@@ -21,35 +21,14 @@ namespace GuiModul
     public partial class LoginView: Form
     {
         LoginModule loginModule = DI.login;
-        public LoginView()
+        Navigator navigator;
+        public LoginView(Navigator navigator)
         {
-          InitializeComponent();
-         
-            
-            
-           
+            this.navigator = navigator;
+          InitializeComponent();     
+       
         }
 
-        
-        private void lbLogin_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void lbUsername_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbUsername_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbPassword_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void tbPassword_TextChanged(object sender, EventArgs e)
         {
@@ -69,8 +48,8 @@ namespace GuiModul
 
                 MessageBox.Show("Login Berhasil!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
-                MenuView menuUtama = new MenuView();
-                menuUtama.Show();
+                navigator.NavigateTo(Routes.MAIN);
+                
             }
 
             else
@@ -81,10 +60,8 @@ namespace GuiModul
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            this.Hide(); 
-            RegisterModul registerForm = new RegisterModul();
-            registerForm.FormClosed += (s, args) => this.Close(); 
-            registerForm.Show();
+            this.Hide();
+            navigator.NavigateTo(Routes.MAIN);
         }
     }
 }

@@ -66,7 +66,6 @@
             this.tbtitle.Name = "tbtitle";
             this.tbtitle.Size = new System.Drawing.Size(282, 20);
             this.tbtitle.TabIndex = 2;
-            this.tbtitle.TextChanged += new System.EventHandler(this.tbtitle_TextChanged);
             // 
             // tbDescription
             // 
@@ -134,7 +133,6 @@
             this.cbstatus.Size = new System.Drawing.Size(282, 21);
             this.cbstatus.TabIndex = 10;
             this.cbstatus.Text = "Pilih Status";
-            this.cbstatus.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // FormAdd
             // 

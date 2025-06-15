@@ -15,11 +15,9 @@ namespace GuiModul
     public partial class TodoCardItem : UserControl
     {
         TodoItem item;
-        Form mainForm;
-        public TodoCardItem(TodoItem todoItem, Form parent)
+        public TodoCardItem(TodoItem todoItem)
         {
             item = todoItem;
-            this.mainForm = parent;
             InitializeComponent();
 
             lblTitle.Text = todoItem.Title;
@@ -45,16 +43,12 @@ namespace GuiModul
 
         private void btnViewDetail_Click(object sender, EventArgs e)
         {
-
-            FormCrud formCrud = new FormCrud(item);
-            formCrud.Show();
-            mainForm.Hide();
-            //this.Hide();
+            DI.navigator.NavigateToDetail (item);
         }
 
         private void lblTitle_Click(object sender, EventArgs e)
         {
-
+            DI.navigator.NavigateToDetail(item);
         }
     }
 }

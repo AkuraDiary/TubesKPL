@@ -86,5 +86,16 @@ namespace GuiModul.Data
             }
 
         }
+
+        private static TodoDataSource instance;
+        public static TodoDataSource getInstance()
+        {
+            if(instance == null)
+            {
+                instance = new TodoDataSource();
+            }
+
+            return instance;
+        }
     }
 }

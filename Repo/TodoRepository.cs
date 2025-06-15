@@ -41,7 +41,18 @@ namespace GuiModul.Repo
         public IEnumerable<TodoItem> GetAll()
         {
             todos = dataSource.ReadFile(activeTodosPath).todos;
-            nextId = todos.Count;
+            if(todos.Count != 0)
+            {
+                nextId = todos.Count;
+            }
+            // update status where todo is deadline
+            todos.ForEach(item => { 
+                if(item.Deadline.Day <= DateTime.Now.Day)
+                {
+                    item.Status = Status.Tenggat;
+                }
+            });
+
             return todos;
         }
 
@@ -57,10 +68,9 @@ namespace GuiModul.Repo
             {
                 existing.Title = item.Title;
                 existing.Description = item.Description;
+                existing.Status = item.Status;
                 existing.IsSelesai = item.IsSelesai;
 
-                //int index = todos.IndexOf(existing);
-                //todos.Insert(index, existing);
                 CommitChanges();
             }
         }
@@ -83,10 +93,18 @@ namespace GuiModul.Repo
             return dataSource.returnCode == 1;
         }
 
-        //internal void Delete(TodoItem item)
-        //{
-        //   dataSource.de
-        //}
+
+        // Singleton
+        private static TodoRepository instance;
+
+        public static TodoRepository getInstance(TodoDataSource datasource)
+        {
+            if(instance == null)
+            {
+                instance = new TodoRepository(datasource);
+            }
+            return instance;
+        }
     }
 
 }

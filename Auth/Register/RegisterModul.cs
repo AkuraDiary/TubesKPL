@@ -14,41 +14,14 @@ namespace GuiModul.Auth.Register
 {
     public partial class RegisterModul: Form
     {
-        RegistrationModule registerModule = DI.regis;
-        public RegisterModul()
+        RegistrationModule registerModule;
+        Navigator navigator;
+        public RegisterModul(Navigator navigator, RegistrationModule registerModul)
         {
             InitializeComponent();
+            this.navigator = navigator;
+            this.registerModule = registerModul;
             tbPassword.PasswordChar = '*';
-        }
-
-        private void lbRegister_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbName_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbUsername_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbUsername_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbPassword_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void tbPassword_TextChanged(object sender, EventArgs e)
@@ -76,9 +49,14 @@ namespace GuiModul.Auth.Register
             MessageBox.Show("Registrasi berhasil! Silakan login.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             this.Hide();
-            LoginView loginForm = new LoginView();
-            loginForm.FormClosed += (s, args) => this.Close();
-            loginForm.Show();
+            navigator.NavigateTo(Routes.LOGIN);
+            
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            navigator.NavigateTo(Routes.LOGIN);
         }
     }
 }

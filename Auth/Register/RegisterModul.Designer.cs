@@ -36,6 +36,7 @@
             this.tbUsername = new System.Windows.Forms.TextBox();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbRegister
@@ -46,7 +47,6 @@
             this.lbRegister.Size = new System.Drawing.Size(69, 20);
             this.lbRegister.TabIndex = 0;
             this.lbRegister.Text = "Register";
-            this.lbRegister.Click += new System.EventHandler(this.lbRegister_Click);
             // 
             // lbName
             // 
@@ -56,7 +56,6 @@
             this.lbName.Size = new System.Drawing.Size(51, 20);
             this.lbName.TabIndex = 1;
             this.lbName.Text = "Name";
-            this.lbName.Click += new System.EventHandler(this.lbName_Click);
             // 
             // lbUsername
             // 
@@ -66,7 +65,6 @@
             this.lbUsername.Size = new System.Drawing.Size(83, 20);
             this.lbUsername.TabIndex = 2;
             this.lbUsername.Text = "Username";
-            this.lbUsername.Click += new System.EventHandler(this.lbUsername_Click);
             // 
             // lbPassword
             // 
@@ -76,7 +74,6 @@
             this.lbPassword.Size = new System.Drawing.Size(78, 20);
             this.lbPassword.TabIndex = 3;
             this.lbPassword.Text = "Password";
-            this.lbPassword.Click += new System.EventHandler(this.lbPassword_Click);
             // 
             // tbName
             // 
@@ -85,7 +82,6 @@
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(228, 26);
             this.tbName.TabIndex = 4;
-            this.tbName.TextChanged += new System.EventHandler(this.tbName_TextChanged);
             // 
             // tbUsername
             // 
@@ -94,7 +90,6 @@
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(228, 26);
             this.tbUsername.TabIndex = 5;
-            this.tbUsername.TextChanged += new System.EventHandler(this.tbUsername_TextChanged);
             // 
             // tbPassword
             // 
@@ -109,19 +104,31 @@
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.Blue;
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Location = new System.Drawing.Point(300, 304);
+            this.btnSubmit.Location = new System.Drawing.Point(359, 299);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(153, 38);
+            this.btnSubmit.Size = new System.Drawing.Size(140, 38);
             this.btnSubmit.TabIndex = 7;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnBack.Location = new System.Drawing.Point(272, 299);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(75, 38);
+            this.btnBack.TabIndex = 8;
+            this.btnBack.Text = "Login";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // RegisterModul
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.tbUsername);
@@ -147,5 +154,6 @@
         private System.Windows.Forms.TextBox tbUsername;
         private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button btnBack;
     }
 }

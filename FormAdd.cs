@@ -14,33 +14,42 @@ namespace GuiModul
     public partial class FormAdd: Form
     {
         TodoItem selectedItem = null;
-        public FormAdd(TodoItem item = null)
+        Navigator navigator;
+        public FormAdd(Navigator navigator)
         {
+            this.navigator = navigator;
             InitializeComponent();
+            Reload();
+            
+        }
 
+        public void Reload()
+        {
+            selectedItem = null;
             cbstatus.SelectedItem = Status.Belum.ToString();
-            if (item != null)
-            {
+            tbtitle.Text = "";
+            tbDescription.Text = "";
+            deadline.Value = DateTime.Now;
+            label1.Text = "Tambahkan TODO";
+        }
+
+        public void SetTodo(TodoItem item)
+        {
                 this.selectedItem = item;
-                tbtitle.Text = item.Title;
-                tbDescription.Text = item.Description;
-                deadline.Value = item.Deadline;
-                cbstatus.SelectedItem = item.Status.ToString();
+                tbtitle.Text = selectedItem.Title;
+                tbDescription.Text = selectedItem.Description;
+                deadline.Value = selectedItem.Deadline;
+                cbstatus.SelectedItem = selectedItem.Status.ToString();
 
                 label1.Text = "Update TODO";
-            }
-         
-
-
         }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
             String Title = tbtitle.Text;
             String Description = tbDescription.Text;
 
-            //untuk status melalui enum
-            //cbstatus.DataSource = Enum.GetValues(typeof(Status));
 
             Status selectedStatus;  
             
@@ -57,10 +66,9 @@ namespace GuiModul
             item.Description = Description;
             item.Status = selectedStatus;
 
-            //cbstatus.SelectedItem = item.Status;
+            
             item.Deadline = deadline.Value;
-            //untuk deadline
-            //deadline.Value = item.Deadline;
+            
 
             if (deadline.Value < DateTime.Today)
             {
@@ -74,10 +82,8 @@ namespace GuiModul
                 selectedItem.Description = Description;
                 selectedItem.Status = selectedStatus;
 
-                //cbstatus.SelectedItem = item.Status;
                 selectedItem.Deadline = deadline.Value;
-                //untuk deadline
-                //deadline.Value = item.Deadline;
+                
                 DI.todoRepo.Update(selectedItem);
             }
             else
@@ -86,21 +92,10 @@ namespace GuiModul
 
             }
 
-
-            //InitializeComponent();
+            Reload();
             this.Hide();
-            MenuView menuview = new MenuView();
-            menuview.Show();
-        }
-
-        private void tbtitle_TextChanged(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+            navigator.NavigateTo(Routes.MAIN);
+           
         }
 
 

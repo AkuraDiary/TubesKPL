@@ -12,6 +12,18 @@ namespace GuiModul
 {
     public class AppConfig : Interface.IAppFileInteractor<AppConfig>
     {
+
+        private static AppConfig instance;
+
+        public static AppConfig getInstance()
+        {
+            if(instance == null)
+            {
+                instance = new AppConfig();
+            }
+            return instance;
+        }
+
         public string UserAccountConfigPath { get; set; }
         public string StoragePath { get; set; }
 

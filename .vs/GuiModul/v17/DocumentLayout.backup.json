@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\materi perkuliahan\\semester 4\\konstruksiperangkatlunak-tubes\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\materi perkuliahan\\semester 4\\konstruksiperangkatlunak-tubes\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -128,7 +128,7 @@
               "RelativeDocumentMoniker": "Data\\Models\\Todos.cs",
               "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Data\\Models\\Todos.cs",
               "RelativeToolTip": "Data\\Models\\Todos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T08:05:03.249Z",
               "EditorCaption": ""
@@ -177,8 +177,7 @@
               "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormAdd.cs [Design]",
               "RelativeToolTip": "FormAdd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:20:14.421Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-31T07:20:14.421Z"
             },
             {
               "$type": "Document",
@@ -213,8 +212,7 @@
               "RelativeToolTip": "FormAdd.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:22:58.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T07:22:58.35Z"
             },
             {
               "$type": "Document",
