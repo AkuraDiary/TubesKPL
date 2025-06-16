@@ -1,0 +1,13 @@
+{
+  "todos": [
+    {
+      "Id": 1,
+      "Title": "tugas kpl ",
+      "Description": "lorem",
+      "CreatedDate": "2025-06-15T12:53:38.5050076+07:00",
+      "IsSelesai": false,
+      "Status": 2,
+      "Deadline": "2025-06-16T12:53:21"
+    }
+  ]
+}

@@ -78,5 +78,9 @@ namespace GuiModul
             //formAdd.Show();
         }
 
+        private void MenuView_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
