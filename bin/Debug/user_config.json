@@ -40,5 +40,17 @@
     "Nama": "baba",
     "Username": "baba",
     "Password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+  },
+  {
+    "Id": 8,
+    "Nama": "riski",
+    "Username": "riskigatell",
+    "Password": "6c204f5ae54bdc80c10d3f92d158db061ac047fd3fee0c79c850ae14431e4e28"
+  },
+  {
+    "Id": 9,
+    "Nama": "hakim",
+    "Username": "hakim123",
+    "Password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9"
   }
 ]

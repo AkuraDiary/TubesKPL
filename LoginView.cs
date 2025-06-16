@@ -16,6 +16,7 @@ using static GuiModul.LoginView;
 using GuiModul.Data.Models;
 
 
+
 namespace GuiModul
 {
     public partial class LoginView: Form
@@ -61,7 +62,9 @@ namespace GuiModul
         private void btnRegister_Click(object sender, EventArgs e)
         {
             this.Hide();
-            navigator.NavigateTo(Routes.MAIN);
+            navigator.NavigateTo(Routes.REGISTER);
         }
+
+        
     }
 }
