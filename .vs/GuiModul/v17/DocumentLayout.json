@@ -3,11 +3,55 @@
   "WorkspaceRootPath": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\todocarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:todocarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\materi perkuliahan\\semester 4\\konstruksiperangkatlunak-tubes\\auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\register\\registrationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\materi perkuliahan\\semester 4\\konstruksiperangkatlunak-tubes\\auth\\register\\registermodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:auth\\register\\registermodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\materi perkuliahan\\semester 4\\konstruksiperangkatlunak-tubes\\loginlibrary.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginlibrary.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\materi perkuliahan\\semester 4\\konstruksiperangkatlunak-tubes\\util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\appconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\materi perkuliahan\\semester 4\\konstruksiperangkatlunak-tubes\\util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:util\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,27 +63,7 @@
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:repo\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|d:\\materi perkuliahan\\semester 4\\konstruksiperangkatlunak-tubes\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:data\\models\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -61,18 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\todocarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:todocarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\todocarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:todocarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|solutionrelative:loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055CFA6C-A34E-4B35-9C12-313B1C0FBFB5}|GuiModul.csproj|D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\domain\\crud\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,56 +138,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthUtilities.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Util\\AuthUtilities.cs",
-              "RelativeDocumentMoniker": "Util\\AuthUtilities.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Util\\AuthUtilities.cs",
-              "RelativeToolTip": "Util\\AuthUtilities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T05:32:45.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormCrud.cs [Design]",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormCrud.cs",
-              "RelativeDocumentMoniker": "FormCrud.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormCrud.cs [Design]",
-              "RelativeToolTip": "FormCrud.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:20:33.374Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormAdd.cs [Design]",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormAdd.cs",
-              "RelativeDocumentMoniker": "FormAdd.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormAdd.cs [Design]",
-              "RelativeToolTip": "FormAdd.cs [Design]",
+              "Title": "RegisterModul.cs [Design]",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Auth\\Register\\RegisterModul.cs",
+              "RelativeDocumentMoniker": "Auth\\Register\\RegisterModul.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Auth\\Register\\RegisterModul.cs [Design]",
+              "RelativeToolTip": "Auth\\Register\\RegisterModul.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:20:14.421Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormStatus.cs [Design]",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormStatus.cs",
-              "RelativeDocumentMoniker": "FormStatus.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormStatus.cs [Design]",
-              "RelativeToolTip": "FormStatus.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:29:55.306Z",
+              "WhenOpened": "2025-06-15T05:36:07.842Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "LoginLibrary.dll",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginLibrary.dll",
+              "RelativeDocumentMoniker": "LoginLibrary.dll",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginLibrary.dll",
+              "RelativeToolTip": "LoginLibrary.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-15T05:35:56.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LoginView.cs [Design]",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginView.cs",
               "RelativeDocumentMoniker": "LoginView.cs",
@@ -188,6 +174,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LoginView.cs",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginView.cs",
+              "RelativeDocumentMoniker": "LoginView.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginView.cs",
+              "RelativeToolTip": "LoginView.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAvwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:30:00.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuView.cs [Design]",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.cs",
+              "RelativeDocumentMoniker": "MenuView.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.cs [Design]",
+              "RelativeToolTip": "MenuView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:32:00.918Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuView.cs",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.cs",
+              "RelativeDocumentMoniker": "MenuView.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.cs",
+              "RelativeToolTip": "MenuView.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAuwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T08:14:35.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoCardItem.cs [Design]",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\TodoCardItem.cs",
+              "RelativeDocumentMoniker": "TodoCardItem.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\TodoCardItem.cs [Design]",
+              "RelativeToolTip": "TodoCardItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T08:29:52.793Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrationModule.cs",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Auth\\Register\\RegistrationModule.cs",
+              "RelativeDocumentMoniker": "Auth\\Register\\RegistrationModule.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Auth\\Register\\RegistrationModule.cs",
+              "RelativeToolTip": "Auth\\Register\\RegistrationModule.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T05:36:12.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormStatus.cs [Design]",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormStatus.cs",
+              "RelativeDocumentMoniker": "FormStatus.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormStatus.cs [Design]",
+              "RelativeToolTip": "FormStatus.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:29:55.306Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormCrud.cs [Design]",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormCrud.cs",
+              "RelativeDocumentMoniker": "FormCrud.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormCrud.cs [Design]",
+              "RelativeToolTip": "FormCrud.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:20:33.374Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormAdd.cs [Design]",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormAdd.cs",
+              "RelativeDocumentMoniker": "FormAdd.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormAdd.cs [Design]",
+              "RelativeToolTip": "FormAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:20:14.421Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "TodoRepository.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Repo\\TodoRepository.cs",
               "RelativeDocumentMoniker": "Repo\\TodoRepository.cs",
@@ -195,12 +280,23 @@
               "RelativeToolTip": "Repo\\TodoRepository.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAUwEUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:05:22.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T09:05:22.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
+              "Title": "AuthUtilities.cs",
+              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Util\\AuthUtilities.cs",
+              "RelativeDocumentMoniker": "Util\\AuthUtilities.cs",
+              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Util\\AuthUtilities.cs",
+              "RelativeToolTip": "Util\\AuthUtilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T05:32:45.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AppConstant.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Util\\AppConstant.cs",
               "RelativeDocumentMoniker": "Util\\AppConstant.cs",
@@ -213,19 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MenuView.cs [Design]",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.cs",
-              "RelativeDocumentMoniker": "MenuView.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.cs [Design]",
-              "RelativeToolTip": "MenuView.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:32:00.918Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Repo\\AuthRepository.cs",
               "RelativeDocumentMoniker": "Repo\\AuthRepository.cs",
@@ -233,12 +317,11 @@
               "RelativeToolTip": "Repo\\AuthRepository.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAgwCEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:16:31.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T09:16:31.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Todos.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Data\\Models\\Todos.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Todos.cs",
@@ -246,12 +329,11 @@
               "RelativeToolTip": "Data\\Models\\Todos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T08:05:03.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:05:03.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "FormAdd.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormAdd.cs",
               "RelativeDocumentMoniker": "FormAdd.cs",
@@ -264,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "TodoItem.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Data\\Models\\TodoItem.cs",
               "RelativeDocumentMoniker": "Data\\Models\\TodoItem.cs",
@@ -276,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "IAppFileInteractor.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Interface\\IAppFileInteractor.cs",
               "RelativeDocumentMoniker": "Interface\\IAppFileInteractor.cs",
@@ -288,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "FormCrud.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\FormCrud.cs",
               "RelativeDocumentMoniker": "FormCrud.cs",
@@ -301,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "TodoCardItem.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\TodoCardItem.cs",
               "RelativeDocumentMoniker": "TodoCardItem.cs",
@@ -309,48 +391,12 @@
               "RelativeToolTip": "TodoCardItem.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAYwDIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:29:55.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginView.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginView.cs",
-              "RelativeDocumentMoniker": "LoginView.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\LoginView.cs",
-              "RelativeToolTip": "LoginView.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAwEUAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:30:00.151Z",
+              "WhenOpened": "2025-05-31T08:29:55.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MenuView.cs",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.cs",
-              "RelativeDocumentMoniker": "MenuView.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\MenuView.cs",
-              "RelativeToolTip": "MenuView.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAwwEEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:14:35.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TodoCardItem.cs [Design]",
-              "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\TodoCardItem.cs",
-              "RelativeDocumentMoniker": "TodoCardItem.cs",
-              "ToolTip": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\TodoCardItem.cs [Design]",
-              "RelativeToolTip": "TodoCardItem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:29:52.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -362,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "TodoDataSource.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Data\\TodoDataSource.cs",
               "RelativeDocumentMoniker": "Data\\TodoDataSource.cs",
@@ -374,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "DI.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\DI.cs",
               "RelativeDocumentMoniker": "DI.cs",
@@ -386,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "TodoService.cs",
               "DocumentMoniker": "D:\\Materi Perkuliahan\\Semester 4\\KonstruksiPerangkatLunak-Tubes\\Domain\\Crud\\TodoService.cs",
               "RelativeDocumentMoniker": "Domain\\Crud\\TodoService.cs",

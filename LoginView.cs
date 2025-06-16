@@ -61,7 +61,7 @@ namespace GuiModul
         private void btnRegister_Click(object sender, EventArgs e)
         {
             this.Hide();
-            navigator.NavigateTo(Routes.MAIN);
+            navigator.NavigateTo(Routes.REGISTER);
         }
     }
 }

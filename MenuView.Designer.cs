@@ -44,17 +44,17 @@
             this.panel1.Location = new System.Drawing.Point(1, -1);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1372, 126);
+            this.panel1.Size = new System.Drawing.Size(1677, 151);
             this.panel1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 20.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(31, 36);
+            this.label1.Location = new System.Drawing.Point(38, 43);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(124, 50);
+            this.label1.Size = new System.Drawing.Size(143, 59);
             this.label1.TabIndex = 1;
             this.label1.Text = "Todo";
             // 
@@ -62,10 +62,10 @@
             // 
             this.btnLogout.BackColor = System.Drawing.Color.Red;
             this.btnLogout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLogout.Location = new System.Drawing.Point(1208, 32);
+            this.btnLogout.Location = new System.Drawing.Point(1476, 38);
             this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(132, 53);
+            this.btnLogout.Size = new System.Drawing.Size(161, 64);
             this.btnLogout.TabIndex = 0;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
@@ -74,19 +74,19 @@
             // PenampungList
             // 
             this.PenampungList.AutoScroll = true;
-            this.PenampungList.Location = new System.Drawing.Point(69, 150);
+            this.PenampungList.Location = new System.Drawing.Point(84, 180);
             this.PenampungList.Margin = new System.Windows.Forms.Padding(2);
             this.PenampungList.Name = "PenampungList";
-            this.PenampungList.Size = new System.Drawing.Size(1217, 522);
+            this.PenampungList.Size = new System.Drawing.Size(1487, 626);
             this.PenampungList.TabIndex = 1;
             // 
             // btnTambah
             // 
             this.btnTambah.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnTambah.Location = new System.Drawing.Point(1153, 686);
+            this.btnTambah.Location = new System.Drawing.Point(1409, 823);
             this.btnTambah.Margin = new System.Windows.Forms.Padding(2);
             this.btnTambah.Name = "btnTambah";
-            this.btnTambah.Size = new System.Drawing.Size(144, 50);
+            this.btnTambah.Size = new System.Drawing.Size(176, 60);
             this.btnTambah.TabIndex = 0;
             this.btnTambah.Text = "Tambah";
             this.btnTambah.UseVisualStyleBackColor = false;
@@ -94,11 +94,11 @@
             // 
             // MenuView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(1370, 772);
+            this.ClientSize = new System.Drawing.Size(1674, 926);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.PenampungList);
             this.Controls.Add(this.panel1);
@@ -107,6 +107,7 @@
             this.MaximizeBox = false;
             this.Name = "MenuView";
             this.Text = "MenuView";
+            this.Load += new System.EventHandler(this.MenuView_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
